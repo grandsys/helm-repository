@@ -3,7 +3,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 2.3.3
-    created: 2017-04-30T23:35:24.41509125+08:00
+    created: 2017-04-30T16:12:35.654523497Z
     description: elasticsearch cluster
     digest: 3f2a0fc0dcb01be50746cb6b36d59363db815c5406528b4278d713aa1a2cc06f
     icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
@@ -11,4 +11,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/elasticsearch-0.1.0.tgz
     version: 0.1.0
-generated: 2017-04-30T23:35:24.411882177+08:00
+generated: 2017-04-30T16:12:35.64987573Z
