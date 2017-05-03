@@ -3,7 +3,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 2.3.3
-    created: 2017-05-03T05:59:41.54043836Z
+    created: 2017-05-03T14:32:52.288466897Z
     description: elasticsearch cluster
     digest: c0c72da813a6f0d6cc10acdf07ce62d81906e59b995bf41461de8cd5b865507d
     icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
@@ -13,7 +13,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 2.3.3
-    created: 2017-05-03T05:59:41.535518194Z
+    created: 2017-05-03T14:32:52.28348813Z
     description: elasticsearch cluster
     digest: 3f2a0fc0dcb01be50746cb6b36d59363db815c5406528b4278d713aa1a2cc06f
     icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
@@ -21,10 +21,19 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/elasticsearch-0.1.0.tgz
     version: 0.1.0
+  inu-es-env:
+  - apiVersion: v1
+    created: 2017-05-03T14:32:52.290563782Z
+    description: setup inu in elasticsearch environment
+    digest: 1ab48391ae3c70cb66e141592bdeb017c49e228c062da428756cf0555eab498a
+    name: inu-es-env
+    urls:
+    - https://grandsys.github.io/helm-repository/inu-es-env-0.1.0.tgz
+    version: 0.1.0
   jenkins:
   - apiVersion: v1
     appVersion: 2.46.2
-    created: 2017-05-03T05:59:41.54895232Z
+    created: 2017-05-03T14:32:52.296682884Z
     description: Jekins TLS running on Kubernetes 1.5+
     digest: 181f3d2c7e199107de96af8acfbc7fa86d372b2ff71d7e097523f5efe1c31b87
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -37,7 +46,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 2.46.2
-    created: 2017-05-03T05:59:41.546144345Z
+    created: 2017-05-03T14:32:52.293560549Z
     description: Jekins TLS running on Kubernetes 1.5+
     digest: 754074b12411cbf0b5a8dc2aa3541d26a1131f0ead75220708ea7a3cc16797ae
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -48,4 +57,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/jenkins-0.1.0.tgz
     version: 0.1.0
-generated: 2017-05-03T05:59:41.531641865Z
+generated: 2017-05-03T14:32:52.279802656Z
