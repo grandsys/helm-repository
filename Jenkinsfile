@@ -26,9 +26,9 @@ podTemplate(
                 git config --global user.email jenkins@cloud
                 git config --global user.name jenkins
                 '''
-                def noChanges = sh script: "git diff --quiet HEAD", returnStatus: true
+                def changes = sh script: "git diff --quiet HEAD", returnStatus: true
 
-                if(noChanges) {
+                if(changes == 0) {
                   echo 'no uncommited changes, no need to package'
                 } else {
                   sh """
