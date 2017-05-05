@@ -25,17 +25,23 @@ podTemplate(
                 # setup git
                 git config --global user.email jenkins@cloud
                 git config --global user.name jenkins
-
                 '''
-                sh """
-                # commit and push
-                git add --all
-                git commit -m 'auto uploading charts'
-                git push -u https://${env.USERNAME}:${env.PASSWORD}@github.com/grandsys/helm-repository.git HEAD:master
-                """
+                def noChanges = sh script: "git diff --quiet HEAD", returnStatus: true
+
+                if(noChanges) {
+                  echo 'no uncommited changes, no need to package'
+                } else {
+                  sh """
+                  # commit and push
+                  git add --all
+                  git commit -m 'auto uploading charts'
+                  git push -u https://${env.USERNAME}:${env.PASSWORD}@github.com/grandsys/helm-repository.git HEAD:master
+                  """
+                }
+
               }
             } catch (e) {
-                echo "${e}"
+                  echo "${e}"
                 currentBuild.result = FAILURE
             }
             finally {
