@@ -34,7 +34,7 @@ podTemplate(
                   sh """
                   # commit and push
                   git add --all
-                  git commit -m 'auto uploading charts'
+                  git commit -m '${params.commiter}'
                   git push -u https://${env.USERNAME}:${env.PASSWORD}@github.com/grandsys/helm-repository.git HEAD:master
                   """
                 }
