@@ -1,8 +1,18 @@
 apiVersion: v1
 entries:
+  akka-seeds:
+  - apiVersion: v1
+    created: 2017-05-15T14:07:46.427152219Z
+    description: Akka Cluster Node-Seeds for Kubernetes
+    digest: c694a66b80e2a65629f0a8958bc4fa13baf7c7e5a084f564bda799ed33030283
+    icon: https://en.wikipedia.org/wiki/File:Akka_toolkit_logo.svg
+    name: akka-seeds
+    urls:
+    - https://grandsys.github.io/helm-repository/akka-seeds-0.1.0.tgz
+    version: 0.1.0
   cassandra:
   - apiVersion: v1
-    created: 2017-05-15T07:11:46.082628695Z
+    created: 2017-05-15T14:07:46.431018894Z
     description: A Helm chart for Kubernetes
     digest: cdf0af6074c830d5552be54d3470808734b9c020f26e1babcbcbc311dd72b75a
     name: cassandra
@@ -12,7 +22,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 2.3.3
-    created: 2017-05-15T07:11:46.086905095Z
+    created: 2017-05-15T14:07:46.437113531Z
     description: elasticsearch cluster
     digest: c0c72da813a6f0d6cc10acdf07ce62d81906e59b995bf41461de8cd5b865507d
     icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
@@ -22,7 +32,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 2.3.3
-    created: 2017-05-15T07:11:46.084757751Z
+    created: 2017-05-15T14:07:46.43386321Z
     description: elasticsearch cluster
     digest: 3f2a0fc0dcb01be50746cb6b36d59363db815c5406528b4278d713aa1a2cc06f
     icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
@@ -32,7 +42,7 @@ entries:
     version: 0.1.0
   inu-es-env:
   - apiVersion: v1
-    created: 2017-05-15T07:11:46.09414349Z
+    created: 2017-05-15T14:07:46.44973746Z
     description: config Elasticsearch for iNu
     digest: 5f3fab3c7792795dd05ace000dc67cf581cf6a11827e5ccab4f400edd2ebb64d
     name: inu-es-env
@@ -40,7 +50,7 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-es-env-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
-    created: 2017-05-15T07:11:46.088826406Z
+    created: 2017-05-15T14:07:46.43984812Z
     description: config Elasticsearch for iNu
     digest: 996618dc9fd4f3586a5664167c0c37787adf5ec85eab1aa7135653dde7e9b802
     name: inu-es-env
@@ -50,7 +60,7 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: 2.46.2
-    created: 2017-05-15T07:11:46.103516669Z
+    created: 2017-05-15T14:07:46.476412675Z
     description: Jekins TLS running on Kubernetes 1.5+
     digest: 612ca63e4b71a281cef0b7afd608747085a8c5e5fa32a05901844dab8e4099a7
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -63,7 +73,7 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: 2.46.2
-    created: 2017-05-15T07:11:46.101194282Z
+    created: 2017-05-15T14:07:46.463227953Z
     description: Jekins TLS running on Kubernetes 1.5+
     digest: dbd9e3db8a44d6d18805789e4185b8160b935b1482dff35ab7eca9a00ea620f0
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -76,7 +86,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: 2.46.2
-    created: 2017-05-15T07:11:46.098882342Z
+    created: 2017-05-15T14:07:46.456235387Z
     description: Jekins TLS running on Kubernetes 1.5+
     digest: 5f9f3a336aac31b1f460ead6f5c5826d64b92da2a5869d70a58d9cedae00aa37
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -89,7 +99,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 2.46.2
-    created: 2017-05-15T07:11:46.09656705Z
+    created: 2017-05-15T14:07:46.453141684Z
     description: Jekins TLS running on Kubernetes 1.5+
     digest: 754074b12411cbf0b5a8dc2aa3541d26a1131f0ead75220708ea7a3cc16797ae
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -100,4 +110,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/jenkins-0.1.0.tgz
     version: 0.1.0
-generated: 2017-05-15T07:11:46.078875825Z
+generated: 2017-05-15T14:07:46.422996837Z
