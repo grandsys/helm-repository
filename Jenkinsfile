@@ -16,8 +16,6 @@ podTemplate(
             try {
               withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'helm-repo-credential', passwordVariable: 'PASSWORD', usernameVariable: 'USERNAME']]) {
 
-                echo "${env.BRANCH_NAME}"
-
                 sh '''
                 # copy shared charts
                 cp /var/helm/repo/* ./docs/
@@ -38,7 +36,7 @@ podTemplate(
                   git push -u https://${env.USERNAME}:${env.PASSWORD}@github.com/grandsys/helm-repository.git HEAD:master
                   """
                 }
-
+                sh '[ ! -f /var/helm/repo/index.yaml ] && cp ./docs/index.yaml /var/helm/repo/index.yaml || true'
               }
             } catch (e) {
                   echo "${e}"
