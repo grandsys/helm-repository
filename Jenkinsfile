@@ -18,7 +18,7 @@ podTemplate(
 
                 sh '''
                 # copy shared charts
-                cp /var/helm/repo/* ./docs/
+                [ -d /var/helm/repo ] && [ "$(ls -A var/helm/repo)" ] && cp /var/helm/repo/* ./docs/ || true
 
                 # setup git
                 git config --global user.email jenkins@cloud
