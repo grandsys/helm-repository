@@ -3,9 +3,9 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: 2.60.2
-    created: 2017-07-24T06:19:08.630582276Z
+    created: 2017-07-24T06:27:10.866437713Z
     description: Jekins TLS running on Kubernetes 1.7+ with RBAC
-    digest: 3d2c12b3a70dce99d9fd8086cb4483e65349f9fed6b520f389767b0091bb205a
+    digest: f71aec748e44d503ba3fbe18085417cb8f39f9b26e5df61c2d6be368aea0153f
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
     maintainers:
     - name: jaohaohsuan
@@ -14,4 +14,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/jenkins-0.2.1.tgz
     version: 0.2.1
-generated: 2017-07-24T06:19:08.629529946Z
+generated: 2017-07-24T06:27:10.865121718Z
