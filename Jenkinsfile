@@ -14,7 +14,10 @@ podTemplate(
         }
         stage('check repo'){
             sh '''
-            [ ! -d /var/helm/repo ] && sudo chmod g+w /var/helm && mkdir -p /var/helm/repo
+            if [ ! -d /var/helm/repo ]
+            then
+                sudo chmod g+w /var/helm && mkdir -p /var/helm/repo
+            fi
             '''
             
             sh '''
