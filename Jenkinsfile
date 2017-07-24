@@ -1,7 +1,7 @@
 podTemplate(
     label: 'helm-repo', 
     containers: [
-        containerTemplate(name: 'jnlp', image: 'henryrao/jnlp-slave', args: '${computer.jnlpmac} ${computer.name}', alwaysPullImage: true)
+        containerTemplate(name: 'jnlp', image: 'docker.grandsys.com/jenkins/jnlp-slave:3.7', args: '${computer.jnlpmac} ${computer.name}', alwaysPullImage: true)
     ],
     volumes: [
         hostPathVolume(mountPath: '/var/run/docker.sock', hostPath: '/var/run/docker.sock'),
