@@ -5,7 +5,7 @@ podTemplate(
     ],
     volumes: [
         hostPathVolume(mountPath: '/var/run/docker.sock', hostPath: '/var/run/docker.sock'),
-        persistentVolumeClaim(claimName: 'helm-repository', mountPath: '/var/helm/repo', readOnly: false)
+        persistentVolumeClaim(claimName: 'helm-repository', mountPath: '/var/helm/', readOnly: false)
     ]) {
            
     node('helm-repo') {
@@ -17,8 +17,11 @@ podTemplate(
               withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'helm-repo-credential', passwordVariable: 'PASSWORD', usernameVariable: 'USERNAME']]) {
 
                 sh '''
+                [ ! -d /var/helm/repo ] && sudo chmod g+w /var/helm && mkdir -p /var/helm/repo
+                '''
+                sh '''
                 # copy shared charts
-                [ -d /var/helm/repo ] && [ "$(ls -A /var/helm/repo)" ] && cp -f /var/helm/repo/* ./docs/ || sudo mkdir -p /var/helm/repo && sudo chmod g+w /var/helm/repo
+                [ -d /var/helm/repo ] && [ "$(ls -A /var/helm/repo)" ] && cp -f /var/helm/repo/* ./docs/
 
                 # setup git
                 git config --global user.email jenkins@cloud
