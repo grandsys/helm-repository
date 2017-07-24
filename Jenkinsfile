@@ -18,7 +18,7 @@ podTemplate(
 
                 sh '''
                 # copy shared charts
-                [ -d /var/helm/repo ] && [ "$(ls -A /var/helm/repo)" ] && cp -f /var/helm/repo/* ./docs/ || mkdir -p /var/helm/repo
+                [ -d /var/helm/repo ] && [ "$(ls -A /var/helm/repo)" ] && cp -f /var/helm/repo/* ./docs/ || sudo mkdir -p /var/helm/repo && sudo chmod g+w /var/helm/repo
 
                 # setup git
                 git config --global user.email jenkins@cloud
