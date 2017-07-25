@@ -1,11 +1,11 @@
 podTemplate(
     label: 'helm-repo', 
     containers: [
-        containerTemplate(name: 'jnlp', image: 'docker.grandsys.com/jenkins/jnlp-slave:3.7', args: '${computer.jnlpmac} ${computer.name}', alwaysPullImage: true)
+        containerTemplate(name: 'jnlp', image: env.JNLP_SLAVE_IMAGE, args: '${computer.jnlpmac} ${computer.name}', alwaysPullImage: true)
     ],
     volumes: [
         hostPathVolume(mountPath: '/var/run/docker.sock', hostPath: '/var/run/docker.sock'),
-        persistentVolumeClaim(claimName: 'helm-repository', mountPath: '/var/helm/', readOnly: false)
+        persistentVolumeClaim(claimName: env.HELM_REPOSITORY, mountPath: '/var/helm/', readOnly: false)
     ]) {
            
     node('helm-repo') {
@@ -60,7 +60,7 @@ podTemplate(
             currentBuild.result = FAILURE
         }
         finally {
-            echo 'well done'
+            
         }
         
     } 
