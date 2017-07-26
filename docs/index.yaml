@@ -3,7 +3,7 @@ entries:
   cassandra:
   - apiVersion: v1
     appVersion: "3.1"
-    created: 2017-07-26T00:32:38.412386842Z
+    created: 2017-07-26T01:50:12.145680955Z
     description: cassandra
     digest: ccb4737b9bcfde026035ed16df271f1b4c18f6b00c538ae5977f7adc78c65d20
     name: cassandra
@@ -13,7 +13,7 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: 2.60.2
-    created: 2017-07-26T00:32:38.413144016Z
+    created: 2017-07-26T01:50:12.147726353Z
     description: Jekins TLS running on Kubernetes 1.7+ with RBAC
     digest: 49a805022bc1173b7dd59d6dbe48824d8dbe864b2c5a7abfd7489c822d21f697
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -24,4 +24,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/jenkins-0.2.1.tgz
     version: 0.2.1
-generated: 2017-07-26T00:32:38.408529748Z
+generated: 2017-07-26T01:50:12.14496271Z
