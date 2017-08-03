@@ -1,9 +1,19 @@
 apiVersion: v1
 entries:
+  akka-seeds:
+  - apiVersion: v1
+    created: 2017-08-03T08:41:35.770087779Z
+    description: Akka Cluster Node-Seeds for Kubernetes
+    digest: f7d6137764fb1db73674e0b8ac749d54d45e80144a76a9c843afb08e71267439
+    icon: https://en.wikipedia.org/wiki/File:Akka_toolkit_logo.svg
+    name: akka-seeds
+    urls:
+    - https://grandsys.github.io/helm-repository/akka-seeds-0.1.2.tgz
+    version: 0.1.2
   cassandra:
   - apiVersion: v1
     appVersion: "3.1"
-    created: 2017-08-03T07:26:11.786024934Z
+    created: 2017-08-03T08:41:35.771367978Z
     description: cassandra
     digest: 2d644440af663857f75b64d953df504b6415911a5577c9dc605fb578efbdca28
     name: cassandra
@@ -13,7 +23,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 2.3.3
-    created: 2017-08-03T07:26:11.800448013Z
+    created: 2017-08-03T08:41:35.77356399Z
     description: elasticsearch cluster
     digest: e8485319b61767a893289416c8e5ce2d30ce6b51aece69cb5f88862cd7312d62
     icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
@@ -23,7 +33,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 2.3.3
-    created: 2017-08-03T07:26:11.792489389Z
+    created: 2017-08-03T08:41:35.772494228Z
     description: elasticsearch cluster
     digest: c0c72da813a6f0d6cc10acdf07ce62d81906e59b995bf41461de8cd5b865507d
     icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
@@ -33,7 +43,7 @@ entries:
     version: 0.1.1
   inu-es-env:
   - apiVersion: v1
-    created: 2017-08-03T07:26:11.808850039Z
+    created: 2017-08-03T08:41:35.775554364Z
     description: config Elasticsearch for iNu
     digest: 5e9935db1c363ade2fa6572bbd7c01464f966d9ba1900eb4e6330f85432ecf5f
     icon: https://avatars1.githubusercontent.com/u/15859888?v=4&s=400
@@ -44,7 +54,7 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: 2.60.2
-    created: 2017-08-03T07:26:11.809921729Z
+    created: 2017-08-03T08:41:35.777587634Z
     description: Jekins TLS running on Kubernetes 1.7+ with RBAC
     digest: a43aa38bb1aab06754a867ed0e89af33dbd24d7e58485a05fe5dd6d930428d6a
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -55,4 +65,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/jenkins-0.2.1.tgz
     version: 0.2.1
-generated: 2017-08-03T07:26:11.783959576Z
+generated: 2017-08-03T08:41:35.76936683Z
