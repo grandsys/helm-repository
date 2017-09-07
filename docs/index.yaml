@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   akka-seeds:
   - apiVersion: v1
-    created: 2017-09-07T08:34:23.379903475Z
+    created: 2017-09-07T09:00:46.131729185Z
     description: Akka Cluster Node-Seeds for Kubernetes
     digest: 02eb947974cc1b8f26fc67a654a67b811b7e95c494a48ab78065136c810e3ca9
     icon: https://en.wikipedia.org/wiki/File:Akka_toolkit_logo.svg
@@ -13,7 +13,7 @@ entries:
   cassandra:
   - apiVersion: v1
     appVersion: "3.1"
-    created: 2017-09-07T08:34:23.381241502Z
+    created: 2017-09-07T09:00:46.132880158Z
     description: cassandra
     digest: 2d644440af663857f75b64d953df504b6415911a5577c9dc605fb578efbdca28
     name: cassandra
@@ -23,17 +23,18 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 2.3.3
-    created: 2017-09-07T08:34:23.383753178Z
+    created: 2017-09-07T09:00:46.134393006Z
     description: elasticsearch cluster
-    digest: 033c4a8f68bd187b9b61db088f0533476f57598fb838352113a65f7c11aee7c7
+    digest: c10b86ca901173ccfca5d2287f253bd6cf2edab89809c766b7de5e715c69e13e
     icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
     name: elasticsearch
+    tillerVersion: '>=2.3.1'
     urls:
     - https://grandsys.github.io/helm-repository/elasticsearch-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
     appVersion: 2.3.3
-    created: 2017-09-07T08:34:23.382234218Z
+    created: 2017-09-07T09:00:46.133956623Z
     description: elasticsearch cluster
     digest: c0c72da813a6f0d6cc10acdf07ce62d81906e59b995bf41461de8cd5b865507d
     icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
@@ -43,7 +44,7 @@ entries:
     version: 0.1.1
   inu-es-env:
   - apiVersion: v1
-    created: 2017-09-07T08:34:23.385935503Z
+    created: 2017-09-07T09:00:46.136808286Z
     description: config Elasticsearch for iNu
     digest: 5e9935db1c363ade2fa6572bbd7c01464f966d9ba1900eb4e6330f85432ecf5f
     icon: https://avatars1.githubusercontent.com/u/15859888?v=4&s=400
@@ -53,7 +54,7 @@ entries:
     version: 0.1.1
   inu-nodejs:
   - apiVersion: v1
-    created: 2017-09-07T08:34:23.38885876Z
+    created: 2017-09-07T09:00:46.138109732Z
     description: A Helm chart for Kubernetes
     digest: b241231e4ea65be3ec865e9955d812888d310a0829c11dd9c39ba52a4cde5cee
     name: inu-nodejs
@@ -63,7 +64,7 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: 2.60.3
-    created: 2017-09-07T08:34:23.390982146Z
+    created: 2017-09-07T09:00:46.141871888Z
     description: Jekins TLS running on Kubernetes 1.7+ with RBAC
     digest: b289783529f6fd6adb746a0f677b9da8834001e0ceb87c5f90ab70021b27c185
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -76,7 +77,7 @@ entries:
     version: 0.2.2
   - apiVersion: v1
     appVersion: 2.60.2
-    created: 2017-09-07T08:34:23.390239103Z
+    created: 2017-09-07T09:00:46.14033468Z
     description: Jekins TLS running on Kubernetes 1.7+ with RBAC
     digest: 48f28a952582aa39503dd769362bd6481d05c3d625c090c5ebc6762949e8a825
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -89,7 +90,7 @@ entries:
     version: 0.2.1
   k8s-alert-controller:
   - apiVersion: v1
-    created: 2017-09-07T08:34:23.392028632Z
+    created: 2017-09-07T09:00:46.142807429Z
     description: A Helm chart for Kubernetes
     digest: 8dcde9183316d6df586ea0c4e7183638af0055c7fd18d43f474326f8edc1a22b
     name: k8s-alert-controller
@@ -99,7 +100,7 @@ entries:
   kong:
   - apiVersion: v1
     appVersion: "0.10"
-    created: 2017-09-07T08:34:23.39333531Z
+    created: 2017-09-07T09:00:46.144051357Z
     description: kong api gateway
     digest: 7381080007b0b9ab3c24ad7d38caaac2e65e8d8c466bb09857da22a8a270fb2a
     name: kong
@@ -108,7 +109,7 @@ entries:
     version: 0.2.0
   mongodb:
   - apiVersion: v1
-    created: 2017-09-07T08:34:23.394348872Z
+    created: 2017-09-07T09:00:46.144929705Z
     description: Document database with the scalability and flexibility
     digest: 6a631899545a4e6d58b570289e5011f5cf5a3822d4595c579d28eba36f32ff29
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -116,4 +117,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/mongodb-0.1.0.tgz
     version: 0.1.0
-generated: 2017-09-07T08:34:23.378181012Z
+generated: 2017-09-07T09:00:46.130213296Z
