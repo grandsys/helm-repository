@@ -1,0 +1,4 @@
+apiVersion: v1
+description: cephfs provisioner for Kubernetes
+name: cephfs-provisioner
+version: 0.1.0

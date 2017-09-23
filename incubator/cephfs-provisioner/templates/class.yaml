@@ -1,0 +1,12 @@
+kind: StorageClass
+apiVersion: storage.k8s.io/v1
+metadata:
+  name: {{ required "A value storageClassName is required." .Values.storageClassName }}
+  labels:
+{{ include "labels" . | indent 4 }}
+provisioner: ceph.com/cephfs
+parameters:
+  monitors: {{ required "A value ceph.mon is required." .Values.ceph.mon }}
+  adminId: admin
+  adminSecretName: ceph-admin-secret-{{ .Release.Name }}
+  adminSecretNamespace: kube-system
