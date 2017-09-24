@@ -49,8 +49,10 @@ podTemplate(
                     # commit and push
                     git add --all
                     git commit -m '${params.commiter}'
-                    git push origin master
                     """
+                    sshagent(['gitlab-inu']) {
+                        sh "git push origin HEAD:refs/heads/master"
+                    }
                     //git push -u https://${env.USERNAME}:${env.PASSWORD}@github.com/grandsys/helm-repository.git HEAD:master
                 }
             }
