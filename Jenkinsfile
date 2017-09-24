@@ -49,8 +49,9 @@ podTemplate(
                     # commit and push
                     git add --all
                     git commit -m '${params.commiter}'
-                    git push -u https://${env.USERNAME}:${env.PASSWORD}@github.com/grandsys/helm-repository.git HEAD:master
+                    git push origin master
                     """
+                    //git push -u https://${env.USERNAME}:${env.PASSWORD}@github.com/grandsys/helm-repository.git HEAD:master
                 }
             }
           }
