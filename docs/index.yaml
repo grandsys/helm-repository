@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   akka-seeds:
   - apiVersion: v1
-    created: 2017-09-28T01:49:40.531473664Z
+    created: 2017-10-02T01:28:49.065640402Z
     description: Akka Cluster Node-Seeds for Kubernetes
     digest: 5eb752375a39fdda6053a9eedab478353a9c2b6e3e09a42f1476be7fe299d70d
     icon: https://en.wikipedia.org/wiki/File:Akka_toolkit_logo.svg
@@ -13,7 +13,7 @@ entries:
   cassandra:
   - apiVersion: v1
     appVersion: "3.1"
-    created: 2017-09-28T01:49:40.532277026Z
+    created: 2017-10-02T01:28:49.075374156Z
     description: cassandra
     digest: 2d644440af663857f75b64d953df504b6415911a5577c9dc605fb578efbdca28
     name: cassandra
@@ -23,7 +23,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 5.6.0
-    created: 2017-09-28T01:49:40.538436696Z
+    created: 2017-10-02T01:28:49.203892372Z
     description: elasticsearch cluster
     digest: bec71ce71ad212c919672057424f45379d4ea7d75b800ecb4a7107e37504d5aa
     icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
@@ -33,7 +33,7 @@ entries:
     version: 5.6.0
   - apiVersion: v1
     appVersion: 5.5.2
-    created: 2017-09-28T01:49:40.537324974Z
+    created: 2017-10-02T01:28:49.19566656Z
     description: elasticsearch cluster
     digest: 9101789d91cf1aecbd28c51f0264bb2e6677f3b87a68ac6c8615b9d8f77b163f
     icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
@@ -43,7 +43,7 @@ entries:
     version: 5.5.2
   - apiVersion: v1
     appVersion: 2.3.3
-    created: 2017-09-28T01:49:40.534488359Z
+    created: 2017-10-02T01:28:49.182817125Z
     description: elasticsearch cluster
     digest: c10b86ca901173ccfca5d2287f253bd6cf2edab89809c766b7de5e715c69e13e
     icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
@@ -53,7 +53,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 2.3.3
-    created: 2017-09-28T01:49:40.533563388Z
+    created: 2017-10-02T01:28:49.158611398Z
     description: elasticsearch cluster
     digest: c0c72da813a6f0d6cc10acdf07ce62d81906e59b995bf41461de8cd5b865507d
     icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
@@ -63,7 +63,7 @@ entries:
     version: 0.1.1
   inu-deployd:
   - apiVersion: v1
-    created: 2017-09-28T01:49:40.539511366Z
+    created: 2017-10-02T01:28:49.21655656Z
     description: A Helm chart for Kubernetes
     digest: f46c7497ca8a2eb79f2920e9c30d1e20e7ec87d00d9f5701bdada41ba0f78203
     name: inu-deployd
@@ -73,7 +73,7 @@ entries:
   inu-es-env:
   - apiVersion: v1
     appVersion: 5.6.0
-    created: 2017-09-28T01:49:40.542938564Z
+    created: 2017-10-02T01:28:49.233910125Z
     description: config Elasticsearch for iNu
     digest: eb66117c882206704a8fa5b88c97ab1b57f84b48857b35ec3167cacc048071a4
     name: inu-es-env
@@ -81,7 +81,7 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-es-env-0.5.0.tgz
     version: 0.5.0
   - apiVersion: v1
-    created: 2017-09-28T01:49:40.541791326Z
+    created: 2017-10-02T01:28:49.232172211Z
     description: config Elasticsearch for iNu
     digest: 8a8fa389a8ba4c3387ca2cee36049e3d221ec8ba8c9a2ba1a29e94de87d4e781
     name: inu-es-env
@@ -89,7 +89,7 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-es-env-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: 2017-09-28T01:49:40.540675669Z
+    created: 2017-10-02T01:28:49.22052173Z
     description: config Elasticsearch for iNu
     digest: 4231382549cb5e6446351c361dfca262c977e042f6729e39a8e62cd6ae56fb73
     icon: https://avatars1.githubusercontent.com/u/15859888?v=4&s=400
@@ -99,7 +99,7 @@ entries:
     version: 0.1.1
   inu-nodejs:
   - apiVersion: v1
-    created: 2017-09-28T01:49:40.543738182Z
+    created: 2017-10-02T01:28:49.244262795Z
     description: A Helm chart for Kubernetes
     digest: b241231e4ea65be3ec865e9955d812888d310a0829c11dd9c39ba52a4cde5cee
     name: inu-nodejs
@@ -108,8 +108,21 @@ entries:
     version: 0.1.0
   jenkins:
   - apiVersion: v1
+    appVersion: "2.81"
+    created: 2017-10-02T01:28:49.288241801Z
+    description: Jekins TLS running on Kubernetes 1.7+ with RBAC
+    digest: 7071c05e1b52e22770036d7ebeae964a37142bf98c7fbae1d752b6f81451ee7c
+    icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
+    maintainers:
+    - name: jaohaohsuan
+    - name: tony24681379
+    name: jenkins
+    urls:
+    - https://grandsys.github.io/helm-repository/jenkins-0.2.6.tgz
+    version: 0.2.6
+  - apiVersion: v1
     appVersion: "2.78"
-    created: 2017-09-28T01:49:40.550749972Z
+    created: 2017-10-02T01:28:49.286904327Z
     description: Jekins TLS running on Kubernetes 1.7+ with RBAC
     digest: a63a1e2dd451b9d4cb5d120a0a2a0637dad5ac0a4dfdbc4d901c8fbea3c2578a
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -122,7 +135,7 @@ entries:
     version: 0.2.5
   - apiVersion: v1
     appVersion: "2.78"
-    created: 2017-09-28T01:49:40.549985291Z
+    created: 2017-10-02T01:28:49.28089691Z
     description: Jekins TLS running on Kubernetes 1.7+ with RBAC
     digest: b547222186562d066d90e2461d51bafcd012f55e50baeb3f9f328d9cf38ef260
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -135,7 +148,7 @@ entries:
     version: 0.2.4
   - apiVersion: v1
     appVersion: 2.73.1
-    created: 2017-09-28T01:49:40.547453686Z
+    created: 2017-10-02T01:28:49.26413943Z
     description: Jekins TLS running on Kubernetes 1.7+ with RBAC
     digest: e37dfdae7d2b161ed846af3e7a73a2c2ab6dd66b200e0ad674d5c24ca109f495
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -148,7 +161,7 @@ entries:
     version: 0.2.3
   - apiVersion: v1
     appVersion: 2.60.3
-    created: 2017-09-28T01:49:40.546338456Z
+    created: 2017-10-02T01:28:49.262697831Z
     description: Jekins TLS running on Kubernetes 1.7+ with RBAC
     digest: c67b8153bf7da39722c310ce6565fb660d831935d78ffa4702b77f7412a20e8b
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -161,7 +174,7 @@ entries:
     version: 0.2.2
   - apiVersion: v1
     appVersion: 2.60.2
-    created: 2017-09-28T01:49:40.544998232Z
+    created: 2017-10-02T01:28:49.245605648Z
     description: Jekins TLS running on Kubernetes 1.7+ with RBAC
     digest: 48f28a952582aa39503dd769362bd6481d05c3d625c090c5ebc6762949e8a825
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -174,7 +187,7 @@ entries:
     version: 0.2.1
   k8s-alert-controller:
   - apiVersion: v1
-    created: 2017-09-28T01:49:40.551484709Z
+    created: 2017-10-02T01:28:49.289145735Z
     description: A Helm chart for Kubernetes
     digest: 8dcde9183316d6df586ea0c4e7183638af0055c7fd18d43f474326f8edc1a22b
     name: k8s-alert-controller
@@ -184,7 +197,7 @@ entries:
   kong:
   - apiVersion: v1
     appVersion: "0.10"
-    created: 2017-09-28T01:49:40.552590473Z
+    created: 2017-10-02T01:28:49.290518665Z
     description: kong api gateway
     digest: 7381080007b0b9ab3c24ad7d38caaac2e65e8d8c466bb09857da22a8a270fb2a
     name: kong
@@ -193,7 +206,7 @@ entries:
     version: 0.2.0
   mongodb:
   - apiVersion: v1
-    created: 2017-09-28T01:49:40.553750461Z
+    created: 2017-10-02T01:28:49.296829453Z
     description: Document database with the scalability and flexibility
     digest: 6a631899545a4e6d58b570289e5011f5cf5a3822d4595c579d28eba36f32ff29
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -201,4 +214,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/mongodb-0.1.0.tgz
     version: 0.1.0
-generated: 2017-09-28T01:49:40.529890114Z
+generated: 2017-10-02T01:28:49.064272195Z
