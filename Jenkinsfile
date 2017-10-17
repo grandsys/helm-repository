@@ -15,7 +15,7 @@ podTemplate(
             sh '''
             if [ ! -d /var/helm/repo ]
             then
-                sudo chmod g+w /var/helm && mkdir -p /var/helm/repo
+                chmod g+w /var/helm && mkdir -p /var/helm/repo
             fi
             '''
             
