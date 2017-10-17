@@ -109,9 +109,9 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: "2.81"
-    created: 2017-10-17T07:15:22.185416333Z
+    created: 2017-10-17T07:35:49.342971042Z
     description: Jekins TLS running on Kubernetes 1.7+ with RBAC
-    digest: 1fa6074d5e209443eb8dbde25aa382781b92b2421abb35acd0250d2c6f65cf40
+    digest: a23b5b151f9e2edb129547d6b895d02d37e2412ef96999b3f626bb15154c5279
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
     maintainers:
     - name: jaohaohsuan
@@ -215,4 +215,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/mongodb-0.1.0.tgz
     version: 0.1.0
-generated: 2017-10-17T07:15:22.183635632Z
+generated: 2017-10-17T07:35:49.341422158Z
