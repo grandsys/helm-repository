@@ -43,7 +43,7 @@ entries:
     version: 5.5.2
   - apiVersion: v1
     appVersion: 2.3.3
-    created: 2017-11-01T01:59:29.292027939Z
+    created: 2017-11-06T08:21:51.87623157Z
     description: elasticsearch cluster
     digest: 2fe1faff9194240f5dbabb334c1d40205f6ecf21fc818b3ed4cfecedcf7a62fa
     icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
@@ -89,7 +89,7 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-es-env-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: 2017-11-01T01:59:29.314291572Z
+    created: 2017-11-06T08:21:51.878190208Z
     description: config Elasticsearch for iNu
     digest: 0a7c3e0c0096b061a5c3fb96c7deb740a56158fd9c37206161d43b50857b113a
     icon: https://avatars1.githubusercontent.com/u/15859888?v=4&s=400
@@ -109,7 +109,7 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: "2.87"
-    created: 2017-11-01T01:59:29.317940331Z
+    created: 2017-11-06T08:21:51.880885084Z
     description: Jekins TLS running on Kubernetes
     digest: da6e617e7f2b63b49b2ce12f130059cd9ba015922b78f679c9d658668484abc1
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -117,6 +117,7 @@ entries:
     - name: jaohaohsuan
     - name: tony24681379
     name: jenkins
+    tillerVersion: '>2.6.1'
     urls:
     - https://grandsys.github.io/helm-repository/jenkins-0.2.6.tgz
     version: 0.2.6
@@ -206,7 +207,7 @@ entries:
     version: 0.2.0
   mongodb:
   - apiVersion: v1
-    created: 2017-11-01T01:59:29.321313327Z
+    created: 2017-11-06T08:21:51.884221912Z
     description: Document database with the scalability and flexibility
     digest: d7bb6737a812b5c0fc833b2ce96b75304582bd93164e737d08186a8a8867cb9d
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -215,7 +216,7 @@ entries:
     - https://grandsys.github.io/helm-repository/mongodb-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: 2017-11-01T01:59:29.320121112Z
+    created: 2017-11-06T08:21:51.882729189Z
     description: Document database with the scalability and flexibility
     digest: b78dbfbffe56df30e4ce0f8cfa756db1db157d296a855eef537159b59f94c525
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -225,12 +226,13 @@ entries:
     version: 0.1.0
   storedq-domain:
   - apiVersion: v1
-    created: 2017-11-01T01:59:29.324923097Z
+    created: 2017-11-06T08:21:51.885022267Z
     description: Stored Query gRPC backend
     digest: 9e34252bf8b5f7de3a9514513106af24acb3797c26aeb7535aacd4801e2c622e
     icon: http://doc.akka.io/docs/akka/2.5.3/images/akka-icon.svg
     name: storedq-domain
+    tillerVersion: '>=2.6.0'
     urls:
     - https://grandsys.github.io/helm-repository/storedq-domain-0.1.0.tgz
     version: 0.1.0
-generated: 2017-11-01T01:59:29.288022717Z
+generated: 2017-11-06T08:21:51.872493654Z
