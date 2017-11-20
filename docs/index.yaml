@@ -12,7 +12,7 @@ entries:
     version: 0.1.2
   cassandra:
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.431337534Z
+    created: 2017-11-20T03:20:56.02419275Z
     description: Apache Cassandra is the database of choice for applications requiring
       the highest levels of scalability and reliability.
     digest: 2239003149b9f2dc7f9e007191fb8c6cbe2c8071511ab035c40d92c05462a748
@@ -22,7 +22,7 @@ entries:
     - https://grandsys.github.io/helm-repository/cassandra-3.111.2.tgz
     version: 3.111.2
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.42942841Z
+    created: 2017-11-20T03:20:56.02166026Z
     description: Apache Cassandra is the database of choice for applications requiring
       the highest levels of scalability and reliability.
     digest: 6355b0286a0ffc90b1920a04573eb146b4ca11e75688a5321f56a3198378104a
@@ -32,7 +32,7 @@ entries:
     - https://grandsys.github.io/helm-repository/cassandra-3.111.1.tgz
     version: 3.111.1
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.421295275Z
+    created: 2017-11-20T03:20:56.019125452Z
     description: Apache Cassandra is the database of choice for applications requiring
       the highest levels of scalability and reliability.
     digest: 22bf9a2e61e70b159d6c72f83daf3597e7c9268b7e3801afe24c6f06ed25e5bb
@@ -43,7 +43,7 @@ entries:
     version: 0.1.0
   ceph-rbd-provisioner:
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.436938298Z
+    created: 2017-11-20T03:20:56.030245249Z
     description: Ceph rbd provisioner for Kubernetes
     digest: 5d05c02ed153c661b5872f917aa890646cedf777c435be59738f31f67018212e
     icon: http://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
@@ -52,7 +52,7 @@ entries:
     - https://grandsys.github.io/helm-repository/ceph-rbd-provisioner-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.435156926Z
+    created: 2017-11-20T03:20:56.028184456Z
     description: Ceph rbd provisioner for Kubernetes
     digest: e67aff4cf5bab88b0dc710674549830bf0066a0c253cac45d1643f57d8017fc0
     icon: http://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
@@ -61,7 +61,7 @@ entries:
     - https://grandsys.github.io/helm-repository/ceph-rbd-provisioner-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.433226546Z
+    created: 2017-11-20T03:20:56.02601905Z
     description: Ceph rbd provisioner for Kubernetes
     digest: a7b8f2c4d4120b2b8191d9adff085c850a6893eaa4f233df0118d2c410c844ca
     icon: http://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
@@ -71,7 +71,7 @@ entries:
     version: 0.1.1
   cephfs-provisioner:
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.440582707Z
+    created: 2017-11-20T03:20:56.034138615Z
     description: cephfs provisioner for Kubernetes
     digest: 4332ffd0869d22d022c103d796ab3412fd3007ebe449c8f818e5c2b952d44ad3
     icon: http://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
@@ -80,7 +80,7 @@ entries:
     - https://grandsys.github.io/helm-repository/cephfs-provisioner-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.438773303Z
+    created: 2017-11-20T03:20:56.032277231Z
     description: cephfs provisioner for Kubernetes
     digest: 040ad91d59bfa74845cf61723de3ef3ca4c3aeab7c55ead10f86a623e05bbbff
     icon: http://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
@@ -111,7 +111,7 @@ entries:
     version: 5.5.2
   - apiVersion: v1
     appVersion: 2.4.5
-    created: 2017-11-20T03:10:11.458748371Z
+    created: 2017-11-20T03:20:56.057359524Z
     description: elasticsearch cluster
     digest: f8da28643e56e7ea21785bb95983084302083f6520c00045b8f342a2d5aeae1a
     icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
@@ -121,7 +121,7 @@ entries:
     version: 2.45.2
   - apiVersion: v1
     appVersion: 2.4.5
-    created: 2017-11-20T03:10:11.457183274Z
+    created: 2017-11-20T03:20:56.055348596Z
     description: elasticsearch cluster
     digest: 05e72764fa02feb95616c688a24df58555efe6c738b296f961d60d74b270372a
     icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
@@ -131,7 +131,7 @@ entries:
     version: 2.45.1
   - apiVersion: v1
     appVersion: 2.3.3
-    created: 2017-11-20T03:10:11.455125004Z
+    created: 2017-11-20T03:20:56.052815383Z
     description: elasticsearch cluster
     digest: 20c01584446d9e341f726121a9997da23190be321fc1b384d9db19cbf96ef75b
     icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
@@ -141,7 +141,7 @@ entries:
     version: 2.33.2
   - apiVersion: v1
     appVersion: 2.3.3
-    created: 2017-11-20T03:10:11.452556943Z
+    created: 2017-11-20T03:20:56.04951179Z
     description: elasticsearch cluster
     digest: 7062d707b99f07a5726a84234d2fc53314a0ca247ad0c131952c65de7e0cba28
     icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
@@ -151,7 +151,7 @@ entries:
     version: 2.33.1
   - apiVersion: v1
     appVersion: 2.4.5
-    created: 2017-11-20T03:10:11.45061333Z
+    created: 2017-11-20T03:20:56.046598198Z
     description: elasticsearch cluster
     digest: 61ca1faf4cbd9becd24c47606a78dd1377a8d9f78978632ab57dda83c9972a55
     icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
@@ -161,7 +161,7 @@ entries:
     version: 0.2.5
   - apiVersion: v1
     appVersion: 2.3.3
-    created: 2017-11-20T03:10:11.448302006Z
+    created: 2017-11-20T03:20:56.044319886Z
     description: elasticsearch cluster
     digest: 28bb4f27e3abeb3d0b868c33a1e6792f73c4932d55d94a0206eb5e4f36b03411
     icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
@@ -171,7 +171,7 @@ entries:
     version: 0.2.4
   - apiVersion: v1
     appVersion: 2.3.3
-    created: 2017-11-20T03:10:11.446112887Z
+    created: 2017-11-20T03:20:56.042212575Z
     description: elasticsearch cluster
     digest: e499728f0a90850a211446c46d515834f9de21197e7894f5a9f721da488175f9
     icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
@@ -181,7 +181,7 @@ entries:
     version: 0.2.3
   - apiVersion: v1
     appVersion: 2.3.3
-    created: 2017-11-20T03:10:11.444285445Z
+    created: 2017-11-20T03:20:56.039697522Z
     description: elasticsearch cluster
     digest: 317606956c5b8fc230fd58949bef903c10b6f0fb402c5c06a9c4b6b471151fd2
     icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
@@ -191,7 +191,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 2.3.3
-    created: 2017-11-20T03:10:11.442677447Z
+    created: 2017-11-20T03:20:56.036235233Z
     description: elasticsearch cluster
     digest: a44c537dc7b6696090e57a3dff646a904ba064200e9c0cc910f2120d103a9fb7
     icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
@@ -211,7 +211,7 @@ entries:
     version: 0.1.1
   inu-deployd:
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.468632312Z
+    created: 2017-11-20T03:20:56.070509601Z
     description: Deployd is the simplest way to build realtime APIs for web and mobile
       apps.
     digest: f9ddd6b3ebdca79cf148caa1390ecf6d276849d71a186e756c7dfacffe03ca14
@@ -221,7 +221,7 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-deployd-0.1.4.tgz
     version: 0.1.4
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.465982654Z
+    created: 2017-11-20T03:20:56.068100971Z
     description: Deployd is the simplest way to build realtime APIs for web and mobile
       apps.
     digest: 3e65a298faa5a88bf572224c761e9fe32fb3bfa88f100397b7332a2ec025f6fd
@@ -231,7 +231,7 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-deployd-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.462756558Z
+    created: 2017-11-20T03:20:56.062946456Z
     description: Deployd is the simplest way to build realtime APIs for web and mobile
       apps.
     digest: b879477088309e1ad5e28825b229a82ecb7935138d3f976e08126f1996247db4
@@ -241,7 +241,7 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-deployd-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.460818752Z
+    created: 2017-11-20T03:20:56.059736318Z
     description: A Helm chart for Kubernetes
     digest: 24565e7f13d94e1b7305d19a7a92e0923982c55b407994c06503730c5f5facd0
     name: inu-deployd
@@ -250,7 +250,7 @@ entries:
     version: 0.1.0
   inu-es-env:
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.484866Z
+    created: 2017-11-20T03:20:56.086646863Z
     description: config Elasticsearch for iNu
     digest: 2409a33714b48fb57ca63b8a53b36b47b4e36b296655ebf38247b2b82debaaa5
     icon: https://www.elastic.co/assets/bltc77b25fbbc9b59e9/ansible.png
@@ -259,7 +259,7 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-es-env-2.45.2.tgz
     version: 2.45.2
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.483859952Z
+    created: 2017-11-20T03:20:56.084577805Z
     description: config Elasticsearch for iNu
     digest: 6ae6d8a5ea73335c17c74e5f422ae3c8d8726209d53b1c0b787b875fed2349f5
     icon: https://www.elastic.co/assets/bltc77b25fbbc9b59e9/ansible.png
@@ -268,16 +268,16 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-es-env-2.45.1.tgz
     version: 2.45.1
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.481714101Z
+    created: 2017-11-20T03:20:56.08191655Z
     description: config Elasticsearch for iNu
-    digest: 6afad53116fad3acfd37d706e6968b3d4306d0066e34f57924ddab714c2566c9
+    digest: c1502a45d87d2613f1adfafb7b3470d5d9504252d3e272e0592621c61c59f302
     icon: https://www.elastic.co/assets/bltc77b25fbbc9b59e9/ansible.png
     name: inu-es-env
     urls:
     - https://grandsys.github.io/helm-repository/inu-es-env-2.33.2.tgz
     version: 2.33.2
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.479285184Z
+    created: 2017-11-20T03:20:56.08071649Z
     description: config Elasticsearch for iNu
     digest: bca4a4acf7ec950defb6e3cb87a5b35314c811f95297876b85aa1e9384ea791f
     icon: https://www.elastic.co/assets/bltc77b25fbbc9b59e9/ansible.png
@@ -303,7 +303,7 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-es-env-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.476904176Z
+    created: 2017-11-20T03:20:56.077601397Z
     description: config Elasticsearch for iNu
     digest: 32077b3e674b3d554a690516602e3c8913777f655df904de2ab95a01c95f8e25
     icon: https://www.elastic.co/assets/bltc77b25fbbc9b59e9/ansible.png
@@ -312,7 +312,7 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-es-env-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.474744933Z
+    created: 2017-11-20T03:20:56.07554074Z
     description: config Elasticsearch for iNu
     digest: 7012cf3dfc79f7409466b68e045ce67c813c022db38ce3d2219b9864af0c0295
     icon: https://www.elastic.co/assets/bltc77b25fbbc9b59e9/ansible.png
@@ -321,7 +321,7 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-es-env-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.47221589Z
+    created: 2017-11-20T03:20:56.072874415Z
     description: config Elasticsearch for iNu
     digest: b22fed50f1c8770028f374b30f1b7192559671303208740114031921da5aa71a
     icon: https://avatars1.githubusercontent.com/u/15859888?v=4&s=400
@@ -331,7 +331,7 @@ entries:
     version: 0.1.1
   inu-nodejs:
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.494263619Z
+    created: 2017-11-20T03:20:56.099171771Z
     description: A Helm chart for Kubernetes
     digest: dfaa28bf3b80a749e9db6e6ea520dae9ec31f731a11cf986d3cb528b7bbcf948
     icon: https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg
@@ -340,7 +340,7 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-nodejs-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.490300237Z
+    created: 2017-11-20T03:20:56.093522615Z
     description: A Helm chart for Kubernetes
     digest: 890b57916a454bb6bf8f63e2e0587d98e73b2f5b652a000253623414b43fd8c1
     icon: https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg
@@ -349,7 +349,7 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-nodejs-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.486601795Z
+    created: 2017-11-20T03:20:56.089061628Z
     description: A Helm chart for Kubernetes
     digest: 41516950a762eaaa3b93aab65529e7c94774f9d654b2f646ac7a64a2464c8aa4
     name: inu-nodejs
@@ -358,7 +358,7 @@ entries:
     version: 0.1.0
   inu-stt-adapter:
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.505421178Z
+    created: 2017-11-20T03:20:56.11293608Z
     description: stt result adapter
     digest: c4c5f2ec4ccd392d5b6222bc68abe0703e92f1e3c59cb1dbc3a662cc84d2f472
     name: inu-stt-adapter
@@ -366,7 +366,7 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-stt-adapter-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.502298914Z
+    created: 2017-11-20T03:20:56.1087603Z
     description: stt result adapter
     digest: 4c04a37aa9ad57b9d7b6598a550640912a310137accac17120d3db4ed1afd654
     name: inu-stt-adapter
@@ -374,7 +374,7 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-stt-adapter-0.1.0.tgz
     version: 0.1.0
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.496906743Z
+    created: 2017-11-20T03:20:56.103399392Z
     description: stt result adapter
     digest: bbee558feca1f16b0d944d431d463bc57cca49436fd2ae151ce8da113f107362
     name: inu-stt-adapter
@@ -384,7 +384,7 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: "2.9"
-    created: 2017-11-20T03:10:11.510265973Z
+    created: 2017-11-20T03:20:56.119430411Z
     description: Jekins TLS running on Kubernetes
     digest: 48915a12c0158d648fce307fa417439594a5f2e2bd2e296335ccf432938e4270
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -397,7 +397,7 @@ entries:
     version: 0.2.11
   - apiVersion: v1
     appVersion: "2.89"
-    created: 2017-11-20T03:10:11.507851114Z
+    created: 2017-11-20T03:20:56.1163045Z
     description: Jekins TLS running on Kubernetes
     digest: e821ff5e4fa50627a6b076e815c953d59f7db9844aff7c326a668ab9f5abb77e
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -410,7 +410,7 @@ entries:
     version: 0.2.10
   - apiVersion: v1
     appVersion: "2.89"
-    created: 2017-11-20T03:10:11.52263488Z
+    created: 2017-11-20T03:20:56.130008823Z
     description: Jekins TLS running on Kubernetes
     digest: c9c4612eaec29d707faa8229bc5a288afce7e47b0c5dedd07f98e179a8e0ac37
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -423,7 +423,7 @@ entries:
     version: 0.2.9
   - apiVersion: v1
     appVersion: "2.89"
-    created: 2017-11-20T03:10:11.519152587Z
+    created: 2017-11-20T03:20:56.127811383Z
     description: Jekins TLS running on Kubernetes
     digest: ec73e4d83214350aa6271b3eb3dc16ed31b9648070dffa45e6407434c7a9c120
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -436,7 +436,7 @@ entries:
     version: 0.2.8
   - apiVersion: v1
     appVersion: "2.88"
-    created: 2017-11-20T03:10:11.515797092Z
+    created: 2017-11-20T03:20:56.125105138Z
     description: Jekins TLS running on Kubernetes
     digest: 6086607f16d7a374cd01d114cb09ef21266113211ee2dbe08a19f9fcd2613486
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -449,7 +449,7 @@ entries:
     version: 0.2.7
   - apiVersion: v1
     appVersion: "2.87"
-    created: 2017-11-20T03:10:11.513087137Z
+    created: 2017-11-20T03:20:56.122299464Z
     description: Jekins TLS running on Kubernetes
     digest: e3e5495967018981628533f3ebd257c4affd93eef7186cbc173cc3c361d2ce8f
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -546,7 +546,7 @@ entries:
     version: 0.2.0
   misc-dnsmasq:
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.524513001Z
+    created: 2017-11-20T03:20:56.131627469Z
     description: 'Dnsmasq provides network infrastructure for small networks: DNS,
       DHCP, router advertisement and network boot.'
     digest: 593151b0d8f82cddb8c053a0b9722bb61eb76a2b9dfb81447b0721fbefdd4c07
@@ -557,7 +557,7 @@ entries:
     version: 0.1.0
   mongodb:
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.537345572Z
+    created: 2017-11-20T03:20:56.144657592Z
     description: Document database with the scalability and flexibility
     digest: a0f15241033842d9b67a12e7a66107b2f7026f6ee5bb115195d1faf2e411aa30
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -566,7 +566,7 @@ entries:
     - https://grandsys.github.io/helm-repository/mongodb-3.410.2.tgz
     version: 3.410.2
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.535726195Z
+    created: 2017-11-20T03:20:56.142958743Z
     description: Document database with the scalability and flexibility
     digest: b31b44239fb1408bed802621d4abf53c93b7b44454f509ee47bbc36956e29b26
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -575,7 +575,7 @@ entries:
     - https://grandsys.github.io/helm-repository/mongodb-3.410.1.tgz
     version: 3.410.1
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.534182751Z
+    created: 2017-11-20T03:20:56.141020847Z
     description: Document database with the scalability and flexibility
     digest: b405fb9dc09fac9d31782f37dcfcf67561ba3ab620ecf5919f12a0ea08348990
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -584,7 +584,7 @@ entries:
     - https://grandsys.github.io/helm-repository/mongodb-0.3.3.tgz
     version: 0.3.3
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.532708631Z
+    created: 2017-11-20T03:20:56.139484879Z
     description: Document database with the scalability and flexibility
     digest: ea52794bd5468f63d481d5cf9fd3c4aa24745f2a70b925210f881786c1c6b0fa
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -593,7 +593,7 @@ entries:
     - https://grandsys.github.io/helm-repository/mongodb-0.3.2.tgz
     version: 0.3.2
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.531113806Z
+    created: 2017-11-20T03:20:56.137904811Z
     description: Document database with the scalability and flexibility
     digest: 887975c7992f31a2da6b97415327cd1f0315ec0f6fd7d32250a83ad7cf450698
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -602,7 +602,7 @@ entries:
     - https://grandsys.github.io/helm-repository/mongodb-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.529674673Z
+    created: 2017-11-20T03:20:56.136294985Z
     description: Document database with the scalability and flexibility
     digest: 0a10c2624bb4a58839f23344e382cdb3bdf5ccd4f5cc3c23c057e78cc06d89d5
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -611,7 +611,7 @@ entries:
     - https://grandsys.github.io/helm-repository/mongodb-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.528224654Z
+    created: 2017-11-20T03:20:56.134710183Z
     description: Document database with the scalability and flexibility
     digest: 1504d32c9d1e27c458d39d5284a95329f67a12fe34dfeaa78b2c1e91c0898f0d
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -620,7 +620,7 @@ entries:
     - https://grandsys.github.io/helm-repository/mongodb-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.526559381Z
+    created: 2017-11-20T03:20:56.13311053Z
     description: Document database with the scalability and flexibility
     digest: b78dbfbffe56df30e4ce0f8cfa756db1db157d296a855eef537159b59f94c525
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -630,7 +630,7 @@ entries:
     version: 0.1.0
   storedq-domain:
   - apiVersion: v1
-    created: 2017-11-20T03:10:11.539122108Z
+    created: 2017-11-20T03:20:56.146676837Z
     description: Stored Query gRPC backend
     digest: 9e34252bf8b5f7de3a9514513106af24acb3797c26aeb7535aacd4801e2c622e
     icon: http://doc.akka.io/docs/akka/2.5.3/images/akka-icon.svg
@@ -638,4 +638,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/storedq-domain-0.1.0.tgz
     version: 0.1.0
-generated: 2017-11-20T03:10:11.419259991Z
+generated: 2017-11-20T03:20:56.011292487Z
