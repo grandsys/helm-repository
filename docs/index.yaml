@@ -713,34 +713,6 @@ entries:
     version: 0.1.0
   mongodb:
   - apiVersion: v1
-    created: 2017-11-28T08:57:01.585845284Z
-    description: Document database with the scalability and flexibility
-    digest: a2eef8e6586ce32787b3bd98093ead8244791199701b613a9c710a3380a9031b
-    icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
-    name: mongodb
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/mongodb-3.410.3.tgz
-    version: 3.410.3
-  - apiVersion: v1
-    created: 2017-11-28T08:57:01.580861168Z
-    description: Document database with the scalability and flexibility
-    digest: 3b25cf392c365c92b70e9f613652b8750c30b7ccfe92fbcdd20c8c174279d9b0
-    icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
-    name: mongodb
-    urls:
-    - https://grandsys.github.io/helm-repository/mongodb-3.410.2.tgz
-    version: 3.410.2
-  - apiVersion: v1
-    created: 2017-11-28T08:57:01.578727864Z
-    description: Document database with the scalability and flexibility
-    digest: a4ef50c6c2b091fdc1144dc7499850307f2c798714637ab0b1bf6fafc34a4578
-    icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
-    name: mongodb
-    urls:
-    - https://grandsys.github.io/helm-repository/mongodb-3.410.1.tgz
-    version: 3.410.1
-  - apiVersion: v1
     created: 2017-11-28T08:57:01.576971323Z
     description: Document database with the scalability and flexibility
     digest: ca71d07f5e211cf6104c1e600ddb66c7c780617ebc147abfb6652af926d10d83
