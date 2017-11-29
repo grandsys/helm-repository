@@ -12,16 +12,6 @@ entries:
     version: 0.1.2
   cassandra:
   - apiVersion: v1
-    created: 2017-11-29T06:59:29.364674859Z
-    description: Apache Cassandra is the database of choice for applications requiring
-      the highest levels of scalability and reliability.
-    digest: f167a36c6feb9818c73a87ec13bb1723a8a7bb5dd087c9173b3908d819910f26
-    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/220px-Cassandra_logo.svg.png
-    name: cassandra
-    urls:
-    - https://grandsys.github.io/helm-repository/cassandra-3.111.3.tgz
-    version: 3.111.3
-  - apiVersion: v1
     created: 2017-11-29T06:59:29.361222653Z
     description: Apache Cassandra is the database of choice for applications requiring
       the highest levels of scalability and reliability.
