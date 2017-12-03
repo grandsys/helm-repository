@@ -42,52 +42,7 @@ entries:
     - https://grandsys.github.io/helm-repository/cassandra-0.1.0.tgz
     version: 0.1.0
   ceph-rbd-provisioner:
-  - apiVersion: v1
-    created: 2017-12-03T19:29:17.056881597Z
-    description: Ceph rbd provisioner for Kubernetes
-    digest: 35ccf0a0fa000db500271b8ec83bf454c8126a6250a678cc90aff4a8ccc3cc67
-    icon: http://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
-    name: ceph-rbd-provisioner
-    urls:
-    - https://grandsys.github.io/helm-repository/ceph-rbd-provisioner-0.1.3.tgz
-    version: 0.1.3
-  - apiVersion: v1
-    created: 2017-12-03T19:29:17.054670598Z
-    description: Ceph rbd provisioner for Kubernetes
-    digest: e67aff4cf5bab88b0dc710674549830bf0066a0c253cac45d1643f57d8017fc0
-    icon: http://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
-    name: ceph-rbd-provisioner
-    urls:
-    - https://grandsys.github.io/helm-repository/ceph-rbd-provisioner-0.1.2.tgz
-    version: 0.1.2
-  - apiVersion: v1
-    created: 2017-12-03T19:29:17.052603628Z
-    description: Ceph rbd provisioner for Kubernetes
-    digest: a7b8f2c4d4120b2b8191d9adff085c850a6893eaa4f233df0118d2c410c844ca
-    icon: http://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
-    name: ceph-rbd-provisioner
-    urls:
-    - https://grandsys.github.io/helm-repository/ceph-rbd-provisioner-0.1.1.tgz
-    version: 0.1.1
   cephfs-provisioner:
-  - apiVersion: v1
-    created: 2017-12-03T19:29:17.084568954Z
-    description: cephfs provisioner for Kubernetes
-    digest: 93e0d7740e5486b56f5b2d3db55dbb98805c7013756c891cd3e19823dec9333c
-    icon: http://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
-    name: cephfs-provisioner
-    urls:
-    - https://grandsys.github.io/helm-repository/cephfs-provisioner-0.2.1.tgz
-    version: 0.2.1
-  - apiVersion: v1
-    created: 2017-12-03T19:29:17.064412224Z
-    description: cephfs provisioner for Kubernetes
-    digest: 040ad91d59bfa74845cf61723de3ef3ca4c3aeab7c55ead10f86a623e05bbbff
-    icon: http://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
-    name: cephfs-provisioner
-    urls:
-    - https://grandsys.github.io/helm-repository/cephfs-provisioner-0.2.0.tgz
-    version: 0.2.0
   elasticsearch:
   - apiVersion: v1
     appVersion: 2.4.6-alpine
