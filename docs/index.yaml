@@ -208,17 +208,6 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/inu-deployd-0.1.0-1.tgz
     version: 0.1.0-1
-  - apiVersion: v1
-    created: 2017-12-12T14:01:55.39742247Z
-    description: Deployd is the simplest way to build realtime APIs for web and mobile
-      apps.
-    digest: f6752133a47030d99a897f2e388297bf33bbf3bc85c64f4f77c6e2969baada50
-    icon: http://deployd.com/img/footer-logo.png
-    name: inu-deployd
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/inu-deployd-0.0.0-0.tgz
-    version: 0.0.0-0
   inu-es-env:
   - apiVersion: v1
     created: 2017-12-12T14:01:55.412740188Z
