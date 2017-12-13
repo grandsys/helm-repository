@@ -1,24 +1,4 @@
 apiVersion: v1
 entries:
   mongodb:
-  - apiVersion: v1
-    created: 2017-12-13T08:54:39.373437325Z
-    description: Document database with the scalability and flexibility
-    digest: 8376c8436dc44f1814f02dcf9ccd54b9fb64e6a84ffcd3db42ce7f76457990fe
-    icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
-    name: mongodb
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/mongodb-3.4.10-null.tgz
-    version: 3.4.10-null
-  - apiVersion: v1
-    created: 2017-12-13T08:54:39.372666522Z
-    description: Document database with the scalability and flexibility
-    digest: 56c0e0eed611595418e38193aecac737d28ed31e663c297a224306b33bfdf8b8
-    icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
-    name: mongodb
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/mongodb-3.4.10-1.tgz
-    version: 3.4.10-1
 generated: 2017-12-13T08:54:39.371652259Z
