@@ -1,8 +1,21 @@
 apiVersion: v1
 entries:
+  elasticsearch:
+  - apiVersion: v1
+    appVersion: 2.4.6-alpine
+    created: 2017-12-13T16:57:48.132786027Z
+    description: Elasticsearch is a distributed RESTful search engine built for the
+      cloud.
+    digest: 9f3b89de28fb0f34121f6a5e562eb97c62769e100cf8ed0843b969d215b7c91b
+    icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
+    name: elasticsearch
+    tillerVersion: '>=2.6.1'
+    urls:
+    - https://grandsys.github.io/helm-repository/elasticsearch-2.4.6-alpine-1.tgz
+    version: 2.4.6-alpine-1
   mongodb:
   - apiVersion: v1
-    created: 2017-12-13T15:01:53.072548149Z
+    created: 2017-12-13T16:57:48.135634123Z
     description: Document database with the scalability and flexibility
     digest: 56c0e0eed611595418e38193aecac737d28ed31e663c297a224306b33bfdf8b8
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -11,4 +24,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/mongodb-3.4.10-1.tgz
     version: 3.4.10-1
-generated: 2017-12-13T15:01:53.071451166Z
+generated: 2017-12-13T16:57:48.131618028Z
