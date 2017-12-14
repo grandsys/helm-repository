@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   cassandra:
   - apiVersion: v1
-    created: 2017-12-14T06:05:37.4186907Z
+    created: 2017-12-14T06:34:51.053782311Z
     description: Apache Cassandra is the database of choice for applications requiring
       the highest levels of scalability and reliability.
     digest: 05f1d268b6e30b533101c2e78a722756ae9303ad0cccf4e5ce5261c62a975cff
@@ -15,7 +15,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 2.4.6-alpine
-    created: 2017-12-14T06:05:37.420130462Z
+    created: 2017-12-14T06:34:51.054660929Z
     description: Elasticsearch is a distributed RESTful search engine built for the
       cloud.
     digest: 9f3b89de28fb0f34121f6a5e562eb97c62769e100cf8ed0843b969d215b7c91b
@@ -27,7 +27,7 @@ entries:
     version: 2.4.6-alpine-1
   inu-alpha:
   - apiVersion: v1
-    created: 2017-12-14T06:05:37.421034228Z
+    created: 2017-12-14T06:34:51.05534285Z
     description: inu-alpha
     digest: 66ba5bddacc0dec311f0f2073e043f0f16c9c6ffb0b52d345d4ab6d5dc04af55
     name: inu-alpha
@@ -37,7 +37,7 @@ entries:
     version: 0.1.2
   inu-deployd:
   - apiVersion: v1
-    created: 2017-12-14T06:05:37.422084434Z
+    created: 2017-12-14T06:34:51.055891003Z
     description: Deployd is the simplest way to build realtime APIs for web and mobile
       apps.
     digest: 4b73254799dca6fd2b27c5b2ab14677aff1b0f78802af8915e1c2fb2a1ad19d8
@@ -49,7 +49,7 @@ entries:
     version: 0.1.0-1
   inu-es-env:
   - apiVersion: v1
-    created: 2017-12-14T06:05:37.42407165Z
+    created: 2017-12-14T06:34:51.057168637Z
     description: config Elasticsearch for iNu
     digest: f44181028bddd1e1834490d154c5cfa9622649fb447cbf50e5bd529d2ed48b10
     icon: https://www.elastic.co/assets/bltc77b25fbbc9b59e9/ansible.png
@@ -58,9 +58,19 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/inu-es-env-2.4.6-alpine-1.tgz
     version: 2.4.6-alpine-1
+  inu-stt-adapter:
+  - apiVersion: v1
+    created: 2017-12-14T06:34:51.057735565Z
+    description: stt result adapter
+    digest: 86890f1e183c3b7e168cd02957dd2a8931fea7657e3ade3aac1b990f0ea6a93a
+    name: inu-stt-adapter
+    tillerVersion: '>=2.6.1'
+    urls:
+    - https://grandsys.github.io/helm-repository/inu-stt-adapter-0.1.0-1.tgz
+    version: 0.1.0-1
   mongodb:
   - apiVersion: v1
-    created: 2017-12-14T06:05:37.425355117Z
+    created: 2017-12-14T06:34:51.058561747Z
     description: Document database with the scalability and flexibility
     digest: 56c0e0eed611595418e38193aecac737d28ed31e663c297a224306b33bfdf8b8
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -69,4 +79,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/mongodb-3.4.10-1.tgz
     version: 3.4.10-1
-generated: 2017-12-14T06:05:37.417322171Z
+generated: 2017-12-14T06:34:51.052676112Z
