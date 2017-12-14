@@ -3,7 +3,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 2.4.6-alpine
-    created: 2017-12-13T16:57:48.132786027Z
+    created: 2017-12-14T02:28:20.290046384Z
     description: Elasticsearch is a distributed RESTful search engine built for the
       cloud.
     digest: 9f3b89de28fb0f34121f6a5e562eb97c62769e100cf8ed0843b969d215b7c91b
@@ -13,9 +13,21 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/elasticsearch-2.4.6-alpine-1.tgz
     version: 2.4.6-alpine-1
+  inu-deployd:
+  - apiVersion: v1
+    created: 2017-12-14T02:28:20.290689927Z
+    description: Deployd is the simplest way to build realtime APIs for web and mobile
+      apps.
+    digest: 4b73254799dca6fd2b27c5b2ab14677aff1b0f78802af8915e1c2fb2a1ad19d8
+    icon: http://deployd.com/img/footer-logo.png
+    name: inu-deployd
+    tillerVersion: '>=2.6.1'
+    urls:
+    - https://grandsys.github.io/helm-repository/inu-deployd-0.1.0-1.tgz
+    version: 0.1.0-1
   mongodb:
   - apiVersion: v1
-    created: 2017-12-13T16:57:48.135634123Z
+    created: 2017-12-14T02:28:20.293670766Z
     description: Document database with the scalability and flexibility
     digest: 56c0e0eed611595418e38193aecac737d28ed31e663c297a224306b33bfdf8b8
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -24,4 +36,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/mongodb-3.4.10-1.tgz
     version: 3.4.10-1
-generated: 2017-12-13T16:57:48.131618028Z
+generated: 2017-12-14T02:28:20.288017085Z
