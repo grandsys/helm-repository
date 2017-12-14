@@ -1,18 +1,6 @@
 apiVersion: v1
 entries:
   elasticsearch:
-  - apiVersion: v1
-    appVersion: 2.4.6-alpine
-    created: 2017-12-14T03:26:18.400103869Z
-    description: Elasticsearch is a distributed RESTful search engine built for the
-      cloud.
-    digest: 9f3b89de28fb0f34121f6a5e562eb97c62769e100cf8ed0843b969d215b7c91b
-    icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
-    name: elasticsearch
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/elasticsearch-2.4.6-alpine-1.tgz
-    version: 2.4.6-alpine-1
   inu-deployd:
   - apiVersion: v1
     created: 2017-12-14T03:26:18.40320747Z
