@@ -1,9 +1,21 @@
 apiVersion: v1
 entries:
+  cassandra:
+  - apiVersion: v1
+    created: 2017-12-14T05:51:37.884676602Z
+    description: Apache Cassandra is the database of choice for applications requiring
+      the highest levels of scalability and reliability.
+    digest: 05f1d268b6e30b533101c2e78a722756ae9303ad0cccf4e5ce5261c62a975cff
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/220px-Cassandra_logo.svg.png
+    name: cassandra
+    tillerVersion: '>2.6.1'
+    urls:
+    - https://grandsys.github.io/helm-repository/cassandra-3.11.1-1.tgz
+    version: 3.11.1-1
   elasticsearch:
   - apiVersion: v1
     appVersion: 2.4.6-alpine
-    created: 2017-12-14T04:42:27.345877422Z
+    created: 2017-12-14T05:51:37.886316898Z
     description: Elasticsearch is a distributed RESTful search engine built for the
       cloud.
     digest: 9f3b89de28fb0f34121f6a5e562eb97c62769e100cf8ed0843b969d215b7c91b
@@ -15,7 +27,7 @@ entries:
     version: 2.4.6-alpine-1
   inu-deployd:
   - apiVersion: v1
-    created: 2017-12-14T04:42:27.346608047Z
+    created: 2017-12-14T05:51:37.887007637Z
     description: Deployd is the simplest way to build realtime APIs for web and mobile
       apps.
     digest: 4b73254799dca6fd2b27c5b2ab14677aff1b0f78802af8915e1c2fb2a1ad19d8
@@ -27,7 +39,7 @@ entries:
     version: 0.1.0-1
   inu-es-env:
   - apiVersion: v1
-    created: 2017-12-14T04:42:27.348083036Z
+    created: 2017-12-14T05:51:37.888305822Z
     description: config Elasticsearch for iNu
     digest: f44181028bddd1e1834490d154c5cfa9622649fb447cbf50e5bd529d2ed48b10
     icon: https://www.elastic.co/assets/bltc77b25fbbc9b59e9/ansible.png
@@ -38,7 +50,7 @@ entries:
     version: 2.4.6-alpine-1
   mongodb:
   - apiVersion: v1
-    created: 2017-12-14T04:42:27.348802659Z
+    created: 2017-12-14T05:51:37.889149137Z
     description: Document database with the scalability and flexibility
     digest: 56c0e0eed611595418e38193aecac737d28ed31e663c297a224306b33bfdf8b8
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -47,4 +59,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/mongodb-3.4.10-1.tgz
     version: 3.4.10-1
-generated: 2017-12-14T04:42:27.344701964Z
+generated: 2017-12-14T05:51:37.883795043Z
