@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   cassandra:
   - apiVersion: v1
-    created: 2017-12-15T09:59:43.591555025Z
+    created: 2017-12-15T12:36:41.767312656Z
     description: Apache Cassandra is the database of choice for applications requiring
       the highest levels of scalability and reliability.
     digest: ec7b23dc10654fc4277086597f4981c68ed01b2e6baa4a4a89582f5b06287916
@@ -15,7 +15,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 2.4.6-alpine
-    created: 2017-12-15T09:59:43.594382344Z
+    created: 2017-12-15T12:36:41.768160855Z
     description: Elasticsearch is a distributed RESTful search engine built for the
       cloud.
     digest: d33b63d542e4c6083bfb26da6ad17e69246bdf39eb0d0162c8ef81240466575a
@@ -27,7 +27,7 @@ entries:
     version: 2.4.6-alpine-1
   inu-deployd:
   - apiVersion: v1
-    created: 2017-12-15T09:59:43.596025442Z
+    created: 2017-12-15T12:36:41.768720208Z
     description: Deployd is the simplest way to build realtime APIs for web and mobile
       apps.
     digest: f6ae36289836937f02c286c22a0f514ad3227b0185759a1610de109c3b0b94f2
@@ -39,7 +39,7 @@ entries:
     version: 0.1.0-1
   inu-es-env:
   - apiVersion: v1
-    created: 2017-12-15T09:59:43.597154148Z
+    created: 2017-12-15T12:36:41.769972789Z
     description: config Elasticsearch for iNu
     digest: 0062160212f0c654adfaa509e0213faf5daebdfb8aa8a7ddf82233ba31d18d53
     icon: https://www.elastic.co/assets/bltc77b25fbbc9b59e9/ansible.png
@@ -48,10 +48,20 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/inu-es-env-2.4.6-alpine-1.tgz
     version: 2.4.6-alpine-1
+  inu-stt-adapter:
+  - apiVersion: v1
+    created: 2017-12-15T12:36:41.770562055Z
+    description: stt result adapter
+    digest: 0837af1757e2f26229676cf10452c84aa259daa9cc9acb67afe215f6ea4390e4
+    name: inu-stt-adapter
+    tillerVersion: '>=2.6.1'
+    urls:
+    - https://grandsys.github.io/helm-repository/inu-stt-adapter-0.1.0-1.tgz
+    version: 0.1.0-1
   jenkins:
   - apiVersion: v1
     appVersion: "2.95"
-    created: 2017-12-15T09:59:43.59935169Z
+    created: 2017-12-15T12:36:41.771855454Z
     description: Jekins TLS running on Kubernetes
     digest: ad5f6d5fa2f9d5e9641f97063e52c0e91867c7c194e93340a1479783ef00046f
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -65,7 +75,7 @@ entries:
     version: 0.2.14
   mongodb:
   - apiVersion: v1
-    created: 2017-12-15T09:59:43.601189374Z
+    created: 2017-12-15T12:36:41.772610935Z
     description: Document database with the scalability and flexibility
     digest: 8c641138471441f02fc5c10ff7dcf7dd5af5c377f8450cf6114a0e044d0aa557
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -74,4 +84,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/mongodb-3.4.10-1.tgz
     version: 3.4.10-1
-generated: 2017-12-15T09:59:43.58852129Z
+generated: 2017-12-15T12:36:41.766364688Z
