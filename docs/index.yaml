@@ -3,15 +3,6 @@ entries:
   cassandra:
   elasticsearch:
   inu-alpha:
-  - apiVersion: v1
-    created: 2017-12-14T08:20:04.891366572Z
-    description: inu-alpha
-    digest: 66ba5bddacc0dec311f0f2073e043f0f16c9c6ffb0b52d345d4ab6d5dc04af55
-    name: inu-alpha
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/inu-alpha-0.1.2.tgz
-    version: 0.1.2
   inu-deployd:
   mongodb:
 generated: 2017-12-15T06:33:25.555020605Z
