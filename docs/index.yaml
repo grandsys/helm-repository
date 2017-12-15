@@ -1,30 +1,7 @@
 apiVersion: v1
 entries:
   cassandra:
-  - apiVersion: v1
-    created: 2017-12-15T06:33:25.557877496Z
-    description: Apache Cassandra is the database of choice for applications requiring
-      the highest levels of scalability and reliability.
-    digest: 05f1d268b6e30b533101c2e78a722756ae9303ad0cccf4e5ce5261c62a975cff
-    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/220px-Cassandra_logo.svg.png
-    name: cassandra
-    tillerVersion: '>2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/cassandra-3.11.1-1.tgz
-    version: 3.11.1-1
   elasticsearch:
-  - apiVersion: v1
-    appVersion: 2.4.6-alpine
-    created: 2017-12-15T06:33:25.560707034Z
-    description: Elasticsearch is a distributed RESTful search engine built for the
-      cloud.
-    digest: 9f3b89de28fb0f34121f6a5e562eb97c62769e100cf8ed0843b969d215b7c91b
-    icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
-    name: elasticsearch
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/elasticsearch-2.4.6-alpine-1.tgz
-    version: 2.4.6-alpine-1
   inu-alpha:
   - apiVersion: v1
     created: 2017-12-14T08:20:04.891366572Z
@@ -36,26 +13,5 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-alpha-0.1.2.tgz
     version: 0.1.2
   inu-deployd:
-  - apiVersion: v1
-    created: 2017-12-15T06:33:25.56150177Z
-    description: Deployd is the simplest way to build realtime APIs for web and mobile
-      apps.
-    digest: f6ae36289836937f02c286c22a0f514ad3227b0185759a1610de109c3b0b94f2
-    icon: http://deployd.com/img/footer-logo.png
-    name: inu-deployd
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/inu-deployd-0.1.0-1.tgz
-    version: 0.1.0-1
   mongodb:
-  - apiVersion: v1
-    created: 2017-12-15T06:33:25.563176317Z
-    description: Document database with the scalability and flexibility
-    digest: 56c0e0eed611595418e38193aecac737d28ed31e663c297a224306b33bfdf8b8
-    icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
-    name: mongodb
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/mongodb-3.4.10-1.tgz
-    version: 3.4.10-1
 generated: 2017-12-15T06:33:25.555020605Z
