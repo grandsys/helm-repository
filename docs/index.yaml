@@ -1,8 +1,14 @@
 apiVersion: v1
 entries:
-  cassandra:
-  elasticsearch:
-  inu-alpha:
-  inu-deployd:
   mongodb:
-generated: 2017-12-15T06:33:25.555020605Z
+  - apiVersion: v1
+    created: 2017-12-15T06:47:49.311770538Z
+    description: Document database with the scalability and flexibility
+    digest: 8c641138471441f02fc5c10ff7dcf7dd5af5c377f8450cf6114a0e044d0aa557
+    icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
+    name: mongodb
+    tillerVersion: '>=2.6.1'
+    urls:
+    - https://grandsys.github.io/helm-repository/mongodb-3.4.10-1.tgz
+    version: 3.4.10-1
+generated: 2017-12-15T06:47:49.310854193Z
