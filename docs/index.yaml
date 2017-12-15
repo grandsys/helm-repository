@@ -36,49 +36,9 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-alpha-0.1.2.tgz
     version: 0.1.2
   inu-deployd:
-  - apiVersion: v1
-    created: 2017-12-14T08:20:04.892021862Z
-    description: Deployd is the simplest way to build realtime APIs for web and mobile
-      apps.
-    digest: 4b73254799dca6fd2b27c5b2ab14677aff1b0f78802af8915e1c2fb2a1ad19d8
-    icon: http://deployd.com/img/footer-logo.png
-    name: inu-deployd
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/inu-deployd-0.1.0-1.tgz
-    version: 0.1.0-1
   inu-es-env:
-  - apiVersion: v1
-    created: 2017-12-14T08:20:04.893133085Z
-    description: config Elasticsearch for iNu
-    digest: f44181028bddd1e1834490d154c5cfa9622649fb447cbf50e5bd529d2ed48b10
-    icon: https://www.elastic.co/assets/bltc77b25fbbc9b59e9/ansible.png
-    name: inu-es-env
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/inu-es-env-2.4.6-alpine-1.tgz
-    version: 2.4.6-alpine-1
   inu-nodejs:
-  - apiVersion: v1
-    created: 2017-12-14T08:20:04.893975878Z
-    description: A Helm chart for Kubernetes
-    digest: 6ec8801153f08ebb04e59942a781626546d3a0f11951f2df1d9dcecd6a250257
-    icon: https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg
-    name: inu-nodejs
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/inu-nodejs-0.1.0-1.tgz
-    version: 0.1.0-1
   inu-stt-adapter:
-  - apiVersion: v1
-    created: 2017-12-14T08:20:04.89459634Z
-    description: stt result adapter
-    digest: 86890f1e183c3b7e168cd02957dd2a8931fea7657e3ade3aac1b990f0ea6a93a
-    name: inu-stt-adapter
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/inu-stt-adapter-0.1.0-1.tgz
-    version: 0.1.0-1
   mongodb:
   - apiVersion: v1
     created: 2017-12-14T08:20:04.895512931Z
