@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   cassandra:
   - apiVersion: v1
-    created: 2017-12-15T08:50:29.650784003Z
+    created: 2017-12-15T09:30:02.027523144Z
     description: Apache Cassandra is the database of choice for applications requiring
       the highest levels of scalability and reliability.
     digest: ec7b23dc10654fc4277086597f4981c68ed01b2e6baa4a4a89582f5b06287916
@@ -15,7 +15,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 2.4.6-alpine
-    created: 2017-12-15T08:50:29.653509498Z
+    created: 2017-12-15T09:30:02.029501421Z
     description: Elasticsearch is a distributed RESTful search engine built for the
       cloud.
     digest: d33b63d542e4c6083bfb26da6ad17e69246bdf39eb0d0162c8ef81240466575a
@@ -27,7 +27,7 @@ entries:
     version: 2.4.6-alpine-1
   inu-deployd:
   - apiVersion: v1
-    created: 2017-12-15T08:50:29.654201671Z
+    created: 2017-12-15T09:30:02.038575508Z
     description: Deployd is the simplest way to build realtime APIs for web and mobile
       apps.
     digest: f6ae36289836937f02c286c22a0f514ad3227b0185759a1610de109c3b0b94f2
@@ -38,10 +38,20 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-deployd-0.1.0-1.tgz
     version: 0.1.0-1
   inu-es-env:
+  - apiVersion: v1
+    created: 2017-12-15T09:30:02.039706867Z
+    description: config Elasticsearch for iNu
+    digest: 4cd2240962229e0bc98bbf8469db7558fc99bda56f34e36edfc6b947edae6965
+    icon: https://www.elastic.co/assets/bltc77b25fbbc9b59e9/ansible.png
+    name: inu-es-env
+    tillerVersion: '>=2.6.1'
+    urls:
+    - https://grandsys.github.io/helm-repository/inu-es-env-2.4.6-alpine-1.tgz
+    version: 2.4.6-alpine-1
   jenkins:
   - apiVersion: v1
     appVersion: "2.95"
-    created: 2017-12-15T08:50:29.661761159Z
+    created: 2017-12-15T09:30:02.041994356Z
     description: Jekins TLS running on Kubernetes
     digest: ad5f6d5fa2f9d5e9641f97063e52c0e91867c7c194e93340a1479783ef00046f
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -55,7 +65,7 @@ entries:
     version: 0.2.14
   mongodb:
   - apiVersion: v1
-    created: 2017-12-15T08:50:29.663513786Z
+    created: 2017-12-15T09:30:02.043725738Z
     description: Document database with the scalability and flexibility
     digest: 8c641138471441f02fc5c10ff7dcf7dd5af5c377f8450cf6114a0e044d0aa557
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -64,4 +74,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/mongodb-3.4.10-1.tgz
     version: 3.4.10-1
-generated: 2017-12-15T08:50:29.648846808Z
+generated: 2017-12-15T09:30:02.024257668Z
