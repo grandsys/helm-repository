@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   cassandra:
   - apiVersion: v1
-    created: 2017-12-19T03:15:42.347916963Z
+    created: 2017-12-19T03:24:01.950279245Z
     description: Apache Cassandra is the database of choice for applications requiring
       the highest levels of scalability and reliability.
     digest: ec7b23dc10654fc4277086597f4981c68ed01b2e6baa4a4a89582f5b06287916
@@ -14,7 +14,7 @@ entries:
     version: 3.11.1-1
   ceph-rbd-provisioner:
   - apiVersion: v1
-    created: 2017-12-19T03:15:42.350413722Z
+    created: 2017-12-19T03:24:01.953732539Z
     description: Ceph rbd provisioner for Kubernetes
     digest: 3a96424b4b9f091c89408b5ea376feb35103149cbb78fe95991f4fe3ec955908
     icon: http://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
@@ -23,7 +23,7 @@ entries:
     - https://grandsys.github.io/helm-repository/ceph-rbd-provisioner-v0.1.1-2.tgz
     version: v0.1.1-2
   - apiVersion: v1
-    created: 2017-12-19T03:15:42.349765883Z
+    created: 2017-12-19T03:24:01.952114352Z
     description: Ceph rbd provisioner for Kubernetes
     digest: 8175495e900caf51f2bd319a9da249bb0bef8a7bd83830b11d16f70db6806048
     icon: http://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
@@ -31,10 +31,20 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/ceph-rbd-provisioner-v0.1.1-1.tgz
     version: v0.1.1-1
+  cephfs-provisioner:
+  - apiVersion: v1
+    created: 2017-12-19T03:24:01.954379661Z
+    description: cephfs provisioner for Kubernetes
+    digest: 66becf6fe1703b06a2ecbb7be7f9c1254922f24308f781ffc3e5c3bddc64ea70
+    icon: http://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
+    name: cephfs-provisioner
+    urls:
+    - https://grandsys.github.io/helm-repository/cephfs-provisioner-v0.1.2-1.tgz
+    version: v0.1.2-1
   elasticsearch:
   - apiVersion: v1
     appVersion: 2.4.6-alpine
-    created: 2017-12-19T03:15:42.352323019Z
+    created: 2017-12-19T03:24:01.955981988Z
     description: Elasticsearch is a distributed RESTful search engine built for the
       cloud.
     digest: d33b63d542e4c6083bfb26da6ad17e69246bdf39eb0d0162c8ef81240466575a
@@ -46,7 +56,7 @@ entries:
     version: 2.4.6-alpine-1
   inu-alpha:
   - apiVersion: v1
-    created: 2017-12-19T03:15:42.353824928Z
+    created: 2017-12-19T03:24:01.957513443Z
     description: inu-alpha
     digest: e9c46ab5cf9036286bcb23410a0da8f6ebc19f6bd8a552a1fed12ff6332843fd
     name: inu-alpha
@@ -56,7 +66,7 @@ entries:
     version: 0.1.2
   inu-deployd:
   - apiVersion: v1
-    created: 2017-12-19T03:15:42.355290669Z
+    created: 2017-12-19T03:24:01.959231791Z
     description: Deployd is the simplest way to build realtime APIs for web and mobile
       apps.
     digest: f6ae36289836937f02c286c22a0f514ad3227b0185759a1610de109c3b0b94f2
@@ -68,7 +78,7 @@ entries:
     version: 0.1.0-1
   inu-es-env:
   - apiVersion: v1
-    created: 2017-12-19T03:15:42.35750148Z
+    created: 2017-12-19T03:24:01.96150699Z
     description: config Elasticsearch for iNu
     digest: 0062160212f0c654adfaa509e0213faf5daebdfb8aa8a7ddf82233ba31d18d53
     icon: https://www.elastic.co/assets/bltc77b25fbbc9b59e9/ansible.png
@@ -79,7 +89,7 @@ entries:
     version: 2.4.6-alpine-1
   inu-nodejs:
   - apiVersion: v1
-    created: 2017-12-19T03:15:42.3619274Z
+    created: 2017-12-19T03:24:01.964718227Z
     description: A Helm chart for Kubernetes
     digest: bc79f3a806429b57d30c4ae8831e3b26dff57aa94ccb66e4f896f9102bab94c4
     icon: https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg
@@ -89,7 +99,7 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-nodejs-0.1.0-2.tgz
     version: 0.1.0-2
   - apiVersion: v1
-    created: 2017-12-19T03:15:42.359175716Z
+    created: 2017-12-19T03:24:01.963077821Z
     description: A Helm chart for Kubernetes
     digest: 6ec8801153f08ebb04e59942a781626546d3a0f11951f2df1d9dcecd6a250257
     icon: https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg
@@ -100,7 +110,7 @@ entries:
     version: 0.1.0-1
   inu-storedq-api:
   - apiVersion: v1
-    created: 2017-12-19T03:15:42.363603501Z
+    created: 2017-12-19T03:24:01.966214176Z
     description: A Helm chart for Kubernetes
     digest: 320a4a880080316f5a420e1d74a16db1dd54234a2d660d2d6aae4c40caef8fc9
     icon: https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg
@@ -110,7 +120,7 @@ entries:
     version: 0.1.0-1
   inu-stt-adapter:
   - apiVersion: v1
-    created: 2017-12-19T03:15:42.365318636Z
+    created: 2017-12-19T03:24:01.967879556Z
     description: stt result adapter
     digest: 0837af1757e2f26229676cf10452c84aa259daa9cc9acb67afe215f6ea4390e4
     name: inu-stt-adapter
@@ -121,7 +131,7 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: "2.96"
-    created: 2017-12-19T03:15:42.369852378Z
+    created: 2017-12-19T03:24:01.972398435Z
     description: Jekins TLS running on Kubernetes
     digest: 3c74c8dbddb7487904e21668948dbb0f1bc504d2dae7b87e580a68d0bc890718
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -135,7 +145,7 @@ entries:
     version: 0.2.15
   - apiVersion: v1
     appVersion: "2.95"
-    created: 2017-12-19T03:15:42.367682756Z
+    created: 2017-12-19T03:24:01.970141538Z
     description: Jekins TLS running on Kubernetes
     digest: ad5f6d5fa2f9d5e9641f97063e52c0e91867c7c194e93340a1479783ef00046f
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -150,7 +160,7 @@ entries:
   kong:
   - apiVersion: v1
     appVersion: 0.10.4
-    created: 2017-12-19T03:15:42.373277462Z
+    created: 2017-12-19T03:24:01.975984992Z
     description: kong api gateway
     digest: daebe991f1dc54d64cfea5cdeeb2d08cea157bd4667f43f76ae26ab3523d8e62
     icon: https://d1q6f0aelx0por.cloudfront.net/product-logos/kong2.png
@@ -161,7 +171,7 @@ entries:
     version: 0.10.4-2
   - apiVersion: v1
     appVersion: 0.10.4
-    created: 2017-12-19T03:15:42.37153803Z
+    created: 2017-12-19T03:24:01.974151823Z
     description: kong api gateway
     digest: c345e607543f00d8c4843e1eacf145cd78b389683c3ecb01792d1d85fff960dd
     icon: https://d1q6f0aelx0por.cloudfront.net/product-logos/kong2.png
@@ -172,7 +182,7 @@ entries:
     version: 0.10.4-1
   mongodb:
   - apiVersion: v1
-    created: 2017-12-19T03:15:42.375045Z
+    created: 2017-12-19T03:24:01.977514944Z
     description: Document database with the scalability and flexibility
     digest: 8c641138471441f02fc5c10ff7dcf7dd5af5c377f8450cf6114a0e044d0aa557
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -181,4 +191,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/mongodb-3.4.10-1.tgz
     version: 3.4.10-1
-generated: 2017-12-19T03:15:42.344850807Z
+generated: 2017-12-19T03:24:01.946559721Z
