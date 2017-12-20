@@ -1,9 +1,15 @@
 apiVersion: v1
 entries:
-  cassandra:
   ceph-rbd-provisioner:
-  cephfs-provisioner:
-  elasticsearch:
+  - apiVersion: v1
+    created: 2017-12-20T04:02:39.46468482Z
+    description: Ceph rbd provisioner for Kubernetes
+    digest: e884e6d3ac923da3283f768c3385c1fdd40b59a71c074d7c80dde534982129e8
+    icon: http://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
+    name: ceph-rbd-provisioner
+    urls:
+    - https://grandsys.github.io/helm-repository/ceph-rbd-provisioner-v0.1.1-1.tgz
+    version: v0.1.1-1
   inu-alpha:
   - apiVersion: v1
     created: 2017-12-19T03:24:01.957513443Z
@@ -14,11 +20,6 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/inu-alpha-0.1.2.tgz
     version: 0.1.2
-  inu-deployd:
-  inu-es-env:
-  inu-nodejs:
-  inu-storedq-api:
-  inu-stt-adapter:
   jenkins:
   - apiVersion: v1
     appVersion: "2.96"
@@ -48,6 +49,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/jenkins-0.2.14.tgz
     version: 0.2.14
-  kong:
-  mongodb:
-generated: 2017-12-20T01:45:27.532198579Z
+generated: 2017-12-20T04:02:39.46321173Z
