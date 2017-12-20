@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   cassandra:
   - apiVersion: v1
-    created: 2017-12-20T04:16:24.210146789Z
+    created: 2017-12-20T04:23:47.530086657Z
     description: Apache Cassandra is the database of choice for applications requiring
       the highest levels of scalability and reliability.
     digest: ec7b23dc10654fc4277086597f4981c68ed01b2e6baa4a4a89582f5b06287916
@@ -14,7 +14,7 @@ entries:
     version: 3.11.1-1
   ceph-rbd-provisioner:
   - apiVersion: v1
-    created: 2017-12-20T04:16:24.213882891Z
+    created: 2017-12-20T04:23:47.531905908Z
     description: Ceph rbd provisioner for Kubernetes
     digest: e884e6d3ac923da3283f768c3385c1fdd40b59a71c074d7c80dde534982129e8
     icon: http://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
@@ -24,7 +24,7 @@ entries:
     version: v0.1.1-1
   cephfs-provisioner:
   - apiVersion: v1
-    created: 2017-12-20T04:16:24.223129557Z
+    created: 2017-12-20T04:23:47.533542692Z
     description: cephfs provisioner for Kubernetes
     digest: 66becf6fe1703b06a2ecbb7be7f9c1254922f24308f781ffc3e5c3bddc64ea70
     icon: http://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
@@ -32,6 +32,19 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/cephfs-provisioner-v0.1.2-1.tgz
     version: v0.1.2-1
+  elasticsearch:
+  - apiVersion: v1
+    appVersion: 2.4.6-alpine
+    created: 2017-12-20T04:23:47.534342654Z
+    description: Elasticsearch is a distributed RESTful search engine built for the
+      cloud.
+    digest: d33b63d542e4c6083bfb26da6ad17e69246bdf39eb0d0162c8ef81240466575a
+    icon: https://worldvectorlogo.com/download/elastic-elasticsearch.svg
+    name: elasticsearch
+    tillerVersion: '>=2.6.1'
+    urls:
+    - https://grandsys.github.io/helm-repository/elasticsearch-2.4.6-alpine-1.tgz
+    version: 2.4.6-alpine-1
   inu-alpha:
   - apiVersion: v1
     created: 2017-12-19T03:24:01.957513443Z
@@ -73,7 +86,7 @@ entries:
     version: 0.2.14
   mongodb:
   - apiVersion: v1
-    created: 2017-12-20T04:16:24.224914891Z
+    created: 2017-12-20T04:23:47.536061007Z
     description: Document database with the scalability and flexibility
     digest: 8c641138471441f02fc5c10ff7dcf7dd5af5c377f8450cf6114a0e044d0aa557
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -82,4 +95,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/mongodb-3.4.10-1.tgz
     version: 3.4.10-1
-generated: 2017-12-20T04:16:24.208730935Z
+generated: 2017-12-20T04:23:47.52687706Z
