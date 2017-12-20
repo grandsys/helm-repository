@@ -1,8 +1,20 @@
 apiVersion: v1
 entries:
+  cassandra:
+  - apiVersion: v1
+    created: 2017-12-20T04:16:24.210146789Z
+    description: Apache Cassandra is the database of choice for applications requiring
+      the highest levels of scalability and reliability.
+    digest: ec7b23dc10654fc4277086597f4981c68ed01b2e6baa4a4a89582f5b06287916
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/220px-Cassandra_logo.svg.png
+    name: cassandra
+    tillerVersion: '>2.6.1'
+    urls:
+    - https://grandsys.github.io/helm-repository/cassandra-3.11.1-1.tgz
+    version: 3.11.1-1
   ceph-rbd-provisioner:
   - apiVersion: v1
-    created: 2017-12-20T04:12:16.845346987Z
+    created: 2017-12-20T04:16:24.213882891Z
     description: Ceph rbd provisioner for Kubernetes
     digest: e884e6d3ac923da3283f768c3385c1fdd40b59a71c074d7c80dde534982129e8
     icon: http://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
@@ -12,7 +24,7 @@ entries:
     version: v0.1.1-1
   cephfs-provisioner:
   - apiVersion: v1
-    created: 2017-12-20T04:12:16.848363072Z
+    created: 2017-12-20T04:16:24.223129557Z
     description: cephfs provisioner for Kubernetes
     digest: 66becf6fe1703b06a2ecbb7be7f9c1254922f24308f781ffc3e5c3bddc64ea70
     icon: http://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
@@ -61,7 +73,7 @@ entries:
     version: 0.2.14
   mongodb:
   - apiVersion: v1
-    created: 2017-12-20T04:12:16.849128548Z
+    created: 2017-12-20T04:16:24.224914891Z
     description: Document database with the scalability and flexibility
     digest: 8c641138471441f02fc5c10ff7dcf7dd5af5c377f8450cf6114a0e044d0aa557
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -70,4 +82,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/mongodb-3.4.10-1.tgz
     version: 3.4.10-1
-generated: 2017-12-20T04:12:16.8399084Z
+generated: 2017-12-20T04:16:24.208730935Z
