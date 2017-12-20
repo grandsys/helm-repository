@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   cassandra:
   - apiVersion: v1
-    created: 2017-12-20T09:05:40.854752461Z
+    created: 2017-12-20T11:22:28.168758744Z
     description: Apache Cassandra is the database of choice for applications requiring
       the highest levels of scalability and reliability.
     digest: ec7b23dc10654fc4277086597f4981c68ed01b2e6baa4a4a89582f5b06287916
@@ -14,7 +14,7 @@ entries:
     version: 3.11.1-1
   ceph-rbd-provisioner:
   - apiVersion: v1
-    created: 2017-12-20T09:05:40.856383823Z
+    created: 2017-12-20T11:22:28.182023973Z
     description: Ceph rbd provisioner for Kubernetes
     digest: e884e6d3ac923da3283f768c3385c1fdd40b59a71c074d7c80dde534982129e8
     icon: http://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
@@ -24,7 +24,7 @@ entries:
     version: v0.1.1-1
   cephfs-provisioner:
   - apiVersion: v1
-    created: 2017-12-20T09:05:40.858111581Z
+    created: 2017-12-20T11:22:28.198236973Z
     description: cephfs provisioner for Kubernetes
     digest: 66becf6fe1703b06a2ecbb7be7f9c1254922f24308f781ffc3e5c3bddc64ea70
     icon: http://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
@@ -35,7 +35,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 2.4.6-alpine
-    created: 2017-12-20T09:05:40.859762897Z
+    created: 2017-12-20T11:22:28.209023364Z
     description: Elasticsearch is a distributed RESTful search engine built for the
       cloud.
     digest: d33b63d542e4c6083bfb26da6ad17e69246bdf39eb0d0162c8ef81240466575a
@@ -57,7 +57,7 @@ entries:
     version: 0.1.2
   inu-deployd:
   - apiVersion: v1
-    created: 2017-12-20T09:05:40.861239952Z
+    created: 2017-12-20T11:22:28.22687901Z
     description: Deployd is the simplest way to build realtime APIs for web and mobile
       apps.
     digest: f6ae36289836937f02c286c22a0f514ad3227b0185759a1610de109c3b0b94f2
@@ -69,7 +69,7 @@ entries:
     version: 0.1.0-1
   inu-es-env:
   - apiVersion: v1
-    created: 2017-12-20T09:05:40.863273052Z
+    created: 2017-12-20T11:22:28.238285829Z
     description: config Elasticsearch for iNu
     digest: a34d8ed809f294cedbb18039fc0796e90916531907b0334a1f7e88560135509f
     icon: https://www.elastic.co/assets/bltc77b25fbbc9b59e9/ansible.png
@@ -78,9 +78,19 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/inu-es-env-2.4.6-alpine-1.tgz
     version: 2.4.6-alpine-1
+  inu-storedq-api:
+  - apiVersion: v1
+    created: 2017-12-20T11:22:28.238930543Z
+    description: A Helm chart for Kubernetes
+    digest: 320a4a880080316f5a420e1d74a16db1dd54234a2d660d2d6aae4c40caef8fc9
+    icon: https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg
+    name: inu-storedq-api
+    urls:
+    - https://grandsys.github.io/helm-repository/inu-storedq-api-0.1.0-1.tgz
+    version: 0.1.0-1
   inu-stt-adapter:
   - apiVersion: v1
-    created: 2017-12-20T09:05:40.863888725Z
+    created: 2017-12-20T11:22:28.240460007Z
     description: stt result adapter
     digest: 6a0f0a8fb5c311ec1d36c4ac3dfb8328661c8c104de352d1df3768a68c6bba70
     name: inu-stt-adapter
@@ -91,7 +101,7 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: "2.97"
-    created: 2017-12-20T09:05:40.866466206Z
+    created: 2017-12-20T11:22:28.253485611Z
     description: Jekins TLS running on Kubernetes
     digest: 31f981ac3079a8db750ce0a92bbe57d86d679e92ef206a281a32318404ef13e5
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -133,7 +143,7 @@ entries:
     version: 0.2.14
   mongodb:
   - apiVersion: v1
-    created: 2017-12-20T09:05:40.867998989Z
+    created: 2017-12-20T11:22:28.270751395Z
     description: Document database with the scalability and flexibility
     digest: 8c641138471441f02fc5c10ff7dcf7dd5af5c377f8450cf6114a0e044d0aa557
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -142,4 +152,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/mongodb-3.4.10-1.tgz
     version: 3.4.10-1
-generated: 2017-12-20T09:05:40.851581147Z
+generated: 2017-12-20T11:22:28.165970606Z
