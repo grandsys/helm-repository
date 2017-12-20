@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   ceph-rbd-provisioner:
   - apiVersion: v1
-    created: 2017-12-20T04:06:57.409137981Z
+    created: 2017-12-20T04:12:16.845346987Z
     description: Ceph rbd provisioner for Kubernetes
     digest: e884e6d3ac923da3283f768c3385c1fdd40b59a71c074d7c80dde534982129e8
     icon: http://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
@@ -12,7 +12,7 @@ entries:
     version: v0.1.1-1
   cephfs-provisioner:
   - apiVersion: v1
-    created: 2017-12-20T04:06:57.409952618Z
+    created: 2017-12-20T04:12:16.848363072Z
     description: cephfs provisioner for Kubernetes
     digest: 66becf6fe1703b06a2ecbb7be7f9c1254922f24308f781ffc3e5c3bddc64ea70
     icon: http://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
@@ -59,4 +59,15 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/jenkins-0.2.14.tgz
     version: 0.2.14
-generated: 2017-12-20T04:06:57.406008988Z
+  mongodb:
+  - apiVersion: v1
+    created: 2017-12-20T04:12:16.849128548Z
+    description: Document database with the scalability and flexibility
+    digest: 8c641138471441f02fc5c10ff7dcf7dd5af5c377f8450cf6114a0e044d0aa557
+    icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
+    name: mongodb
+    tillerVersion: '>=2.6.1'
+    urls:
+    - https://grandsys.github.io/helm-repository/mongodb-3.4.10-1.tgz
+    version: 3.4.10-1
+generated: 2017-12-20T04:12:16.8399084Z
