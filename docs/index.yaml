@@ -55,8 +55,6 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/inu-alpha-0.1.2.tgz
     version: 0.1.2
-  inu-deployd:
-  inu-es-env:
   inu-nodejs:
   - apiVersion: v1
     created: 2017-12-20T12:49:08.923861435Z
@@ -91,7 +89,7 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: "2.97"
-    created: 2017-12-21T09:43:27.173116356Z
+    created: 2017-12-21T14:46:53.040305184Z
     description: Jekins TLS running on Kubernetes
     digest: df06f58e28215b2cc5dede17ac903d225cdccf1915a5795ae550e8d27d1676e2
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -158,4 +156,14 @@ entries:
     - https://grandsys.github.io/helm-repository/kong-0.10.4-1.tgz
     version: 0.10.4-1
   mongodb:
-generated: 2017-12-21T09:43:27.156883982Z
+  - apiVersion: v1
+    created: 2017-12-21T14:46:53.041078204Z
+    description: Document database with the scalability and flexibility
+    digest: 8c641138471441f02fc5c10ff7dcf7dd5af5c377f8450cf6114a0e044d0aa557
+    icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
+    name: mongodb
+    tillerVersion: '>=2.6.1'
+    urls:
+    - https://grandsys.github.io/helm-repository/mongodb-3.4.10-1.tgz
+    version: 3.4.10-1
+generated: 2017-12-21T14:46:53.036857394Z
