@@ -158,14 +158,4 @@ entries:
     - https://grandsys.github.io/helm-repository/kong-0.10.4-1.tgz
     version: 0.10.4-1
   mongodb:
-  - apiVersion: v1
-    created: 2017-12-20T12:49:08.931855539Z
-    description: Document database with the scalability and flexibility
-    digest: 8c641138471441f02fc5c10ff7dcf7dd5af5c377f8450cf6114a0e044d0aa557
-    icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
-    name: mongodb
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/mongodb-3.4.10-1.tgz
-    version: 3.4.10-1
 generated: 2017-12-21T09:43:27.156883982Z
