@@ -47,7 +47,7 @@ entries:
     version: 2.4.6-alpine-1
   inu-deployd:
   - apiVersion: v1
-    created: 2017-12-22T06:46:25.970733883Z
+    created: 2017-12-22T07:36:44.55891162Z
     description: Deployd is the simplest way to build realtime APIs for web and mobile
       apps.
     digest: f6ae36289836937f02c286c22a0f514ad3227b0185759a1610de109c3b0b94f2
@@ -58,6 +58,16 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-deployd-0.1.0-1.tgz
     version: 0.1.0-1
   inu-es-env:
+  - apiVersion: v1
+    created: 2017-12-22T07:36:44.560488713Z
+    description: config Elasticsearch for iNu
+    digest: 623caa05b0baf421c348b9c8d37b3be3e417f7522041dee9e621ba6a2c310e65
+    icon: https://www.elastic.co/assets/bltc77b25fbbc9b59e9/ansible.png
+    name: inu-es-env
+    tillerVersion: '>=2.6.1'
+    urls:
+    - https://grandsys.github.io/helm-repository/inu-es-env-2.4.6-alpine-1.tgz
+    version: 2.4.6-alpine-1
   inu-nodejs:
   - apiVersion: v1
     created: 2017-12-20T12:49:08.923861435Z
@@ -92,7 +102,7 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: "2.97"
-    created: 2017-12-22T06:46:25.978685354Z
+    created: 2017-12-22T07:36:44.563211655Z
     description: Jekins TLS running on Kubernetes
     digest: df06f58e28215b2cc5dede17ac903d225cdccf1915a5795ae550e8d27d1676e2
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -160,7 +170,7 @@ entries:
     version: 0.10.4-1
   misc-dnsmasq:
   - apiVersion: v1
-    created: 2017-12-22T06:46:25.980445461Z
+    created: 2017-12-22T07:36:44.565030802Z
     description: 'Dnsmasq provides network infrastructure for small networks: DNS,
       DHCP, router advertisement and network boot.'
     digest: 79568c6c945bd89bbbcb1be688c8d3a757233feccbc6474746fa58b3fbe22037
@@ -172,7 +182,7 @@ entries:
     version: 2.78-1
   mongodb:
   - apiVersion: v1
-    created: 2017-12-22T06:46:25.983949091Z
+    created: 2017-12-22T07:36:44.567065484Z
     description: Document database with the scalability and flexibility
     digest: 8c641138471441f02fc5c10ff7dcf7dd5af5c377f8450cf6114a0e044d0aa557
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -181,4 +191,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/mongodb-3.4.10-1.tgz
     version: 3.4.10-1
-generated: 2017-12-22T06:46:25.967491438Z
+generated: 2017-12-22T07:36:44.555467266Z
