@@ -47,7 +47,7 @@ entries:
     version: 2.4.6-alpine-1
   inu-deployd:
   - apiVersion: v1
-    created: 2017-12-22T05:47:08.530975707Z
+    created: 2017-12-22T05:49:56.609269035Z
     description: Deployd is the simplest way to build realtime APIs for web and mobile
       apps.
     digest: f6ae36289836937f02c286c22a0f514ad3227b0185759a1610de109c3b0b94f2
@@ -59,7 +59,7 @@ entries:
     version: 0.1.0-1
   inu-es-env:
   - apiVersion: v1
-    created: 2017-12-22T05:47:08.533234708Z
+    created: 2017-12-22T05:49:56.611549149Z
     description: config Elasticsearch for iNu
     digest: d7568b0b258de626c8829c73f561a2597409b082f5c8c1f30e39dea865d9147d
     icon: https://www.elastic.co/assets/bltc77b25fbbc9b59e9/ansible.png
@@ -69,7 +69,7 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-es-env-2.4.6-alpine-2.tgz
     version: 2.4.6-alpine-2
   - apiVersion: v1
-    created: 2017-12-22T05:47:08.532057824Z
+    created: 2017-12-22T05:49:56.610420853Z
     description: config Elasticsearch for iNu
     digest: 0c418a31be797f4259ecb6a0a127a1cb95d0d7426432e2a7bd0f697b81d2148c
     icon: https://www.elastic.co/assets/bltc77b25fbbc9b59e9/ansible.png
@@ -112,7 +112,7 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: "2.97"
-    created: 2017-12-22T05:47:08.534400428Z
+    created: 2017-12-22T05:49:56.612932261Z
     description: Jekins TLS running on Kubernetes
     digest: df06f58e28215b2cc5dede17ac903d225cdccf1915a5795ae550e8d27d1676e2
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -178,9 +178,21 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/kong-0.10.4-1.tgz
     version: 0.10.4-1
+  misc-dnsmasq:
+  - apiVersion: v1
+    created: 2017-12-22T05:49:56.613611932Z
+    description: 'Dnsmasq provides network infrastructure for small networks: DNS,
+      DHCP, router advertisement and network boot.'
+    digest: 79568c6c945bd89bbbcb1be688c8d3a757233feccbc6474746fa58b3fbe22037
+    icon: http://www.thekelleys.org.uk/dnsmasq/images/icon.png
+    name: misc-dnsmasq
+    tillerVersion: '>=2.6.1'
+    urls:
+    - https://grandsys.github.io/helm-repository/misc-dnsmasq-2.78-1.tgz
+    version: 2.78-1
   mongodb:
   - apiVersion: v1
-    created: 2017-12-22T05:47:08.535165019Z
+    created: 2017-12-22T05:49:56.614396063Z
     description: Document database with the scalability and flexibility
     digest: 8c641138471441f02fc5c10ff7dcf7dd5af5c377f8450cf6114a0e044d0aa557
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -189,4 +201,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/mongodb-3.4.10-1.tgz
     version: 3.4.10-1
-generated: 2017-12-22T05:47:08.529521091Z
+generated: 2017-12-22T05:49:56.608377424Z
