@@ -46,15 +46,6 @@ entries:
     - https://grandsys.github.io/helm-repository/elasticsearch-2.4.6-alpine-1.tgz
     version: 2.4.6-alpine-1
   inu-alpha:
-  - apiVersion: v1
-    created: 2017-12-19T03:24:01.957513443Z
-    description: inu-alpha
-    digest: e9c46ab5cf9036286bcb23410a0da8f6ebc19f6bd8a552a1fed12ff6332843fd
-    name: inu-alpha
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/inu-alpha-0.1.2.tgz
-    version: 0.1.2
   inu-deployd:
   - apiVersion: v1
     created: 2017-12-21T16:11:01.854213645Z
