@@ -58,36 +58,6 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-deployd-0.1.0-1.tgz
     version: 0.1.0-1
   inu-es-env:
-  - apiVersion: v1
-    created: 2017-12-22T06:46:25.976466071Z
-    description: config Elasticsearch for iNu
-    digest: 5ec54c8e81b15cbcb76e92151207164ac3425c169061e7eaf188419c126a42ab
-    icon: https://www.elastic.co/assets/bltc77b25fbbc9b59e9/ansible.png
-    name: inu-es-env
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/inu-es-env-2.4.6-alpine-3.tgz
-    version: 2.4.6-alpine-3
-  - apiVersion: v1
-    created: 2017-12-22T06:46:25.974196298Z
-    description: config Elasticsearch for iNu
-    digest: d7568b0b258de626c8829c73f561a2597409b082f5c8c1f30e39dea865d9147d
-    icon: https://www.elastic.co/assets/bltc77b25fbbc9b59e9/ansible.png
-    name: inu-es-env
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/inu-es-env-2.4.6-alpine-2.tgz
-    version: 2.4.6-alpine-2
-  - apiVersion: v1
-    created: 2017-12-22T06:46:25.971904634Z
-    description: config Elasticsearch for iNu
-    digest: 2c2f352752ce4bed48a092e56739044daecae8e8da2bbd230cc32baed40c3570
-    icon: https://www.elastic.co/assets/bltc77b25fbbc9b59e9/ansible.png
-    name: inu-es-env
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/inu-es-env-2.4.6-alpine-1.tgz
-    version: 2.4.6-alpine-1
   inu-nodejs:
   - apiVersion: v1
     created: 2017-12-20T12:49:08.923861435Z
