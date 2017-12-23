@@ -47,9 +47,9 @@ entries:
     version: 2.4.6-alpine-1
   inu-alpha:
   - apiVersion: v1
-    created: 2017-12-22T10:12:42.101541013Z
+    created: 2017-12-23T16:04:06.03848674Z
     description: inu-alpha
-    digest: e9799ea20f8e7b23fac8f744cd313c8840da8e3bc45062c568a32fd9e2154fc7
+    digest: e134034605ffe09b19f1e6369e30f0ef26a48ff85afe4929c06227a58365fd34
     name: inu-alpha
     tillerVersion: '>=2.6.1'
     urls:
@@ -57,7 +57,7 @@ entries:
     version: 0.1.0-1
   inu-deployd:
   - apiVersion: v1
-    created: 2017-12-22T10:12:42.103377181Z
+    created: 2017-12-23T16:04:06.040581177Z
     description: Deployd is the simplest way to build realtime APIs for web and mobile
       apps.
     digest: f6ae36289836937f02c286c22a0f514ad3227b0185759a1610de109c3b0b94f2
@@ -69,7 +69,7 @@ entries:
     version: 0.1.0-1
   inu-es-env:
   - apiVersion: v1
-    created: 2017-12-22T10:12:42.107280917Z
+    created: 2017-12-23T16:04:06.044181809Z
     description: config Elasticsearch for iNu
     digest: 623caa05b0baf421c348b9c8d37b3be3e417f7522041dee9e621ba6a2c310e65
     icon: https://www.elastic.co/assets/bltc77b25fbbc9b59e9/ansible.png
@@ -112,7 +112,7 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: "2.97"
-    created: 2017-12-22T10:12:42.109538197Z
+    created: 2017-12-23T16:04:06.046553254Z
     description: Jekins TLS running on Kubernetes
     digest: df06f58e28215b2cc5dede17ac903d225cdccf1915a5795ae550e8d27d1676e2
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -180,7 +180,7 @@ entries:
     version: 0.10.4-1
   misc-dnsmasq:
   - apiVersion: v1
-    created: 2017-12-22T10:12:42.111234571Z
+    created: 2017-12-23T16:04:06.048451292Z
     description: 'Dnsmasq provides network infrastructure for small networks: DNS,
       DHCP, router advertisement and network boot.'
     digest: 79568c6c945bd89bbbcb1be688c8d3a757233feccbc6474746fa58b3fbe22037
@@ -192,7 +192,7 @@ entries:
     version: 2.78-1
   mongodb:
   - apiVersion: v1
-    created: 2017-12-22T10:12:42.112966259Z
+    created: 2017-12-23T16:04:06.050104021Z
     description: Document database with the scalability and flexibility
     digest: 8c641138471441f02fc5c10ff7dcf7dd5af5c377f8450cf6114a0e044d0aa557
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -201,4 +201,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/mongodb-3.4.10-1.tgz
     version: 3.4.10-1
-generated: 2017-12-22T10:12:42.100708153Z
+generated: 2017-12-23T16:04:06.037296121Z
