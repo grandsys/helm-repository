@@ -91,7 +91,7 @@ entries:
     version: 0.1.0-1
   inu-qms-schedule:
   - apiVersion: v1
-    created: 2017-12-29T05:19:25.070749959Z
+    created: 2017-12-29T07:59:23.944195777Z
     description: inu-qms-schedule for Kubernetes
     digest: 3ad1d54d07244b37a1fddf95e41efcad532182da50dbd4372d9b7fd9e6409766
     name: inu-qms-schedule
@@ -110,6 +110,15 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-storedq-api-0.1.0-1.tgz
     version: 0.1.0-1
   inu-stt-adapter:
+  - apiVersion: v1
+    created: 2017-12-29T07:59:23.9447692Z
+    description: stt result adapter
+    digest: 7e004bfae40b8f4f2ccf287c5c14b248c4a66f0eb9d14b56d1adc3f7fa78ebca
+    name: inu-stt-adapter
+    tillerVersion: '>=2.6.1'
+    urls:
+    - https://grandsys.github.io/helm-repository/inu-stt-adapter-0.1.0-1.tgz
+    version: 0.1.0-1
   jenkins:
   - apiVersion: v1
     appVersion: "2.98"
@@ -216,4 +225,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/mongodb-3.4.10-1.tgz
     version: 3.4.10-1
-generated: 2017-12-29T05:19:25.069877278Z
+generated: 2017-12-29T07:59:23.941011697Z
