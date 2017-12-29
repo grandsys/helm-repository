@@ -110,15 +110,6 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-storedq-api-0.1.0-1.tgz
     version: 0.1.0-1
   inu-stt-adapter:
-  - apiVersion: v1
-    created: 2017-12-20T12:49:08.926919559Z
-    description: stt result adapter
-    digest: 6a0f0a8fb5c311ec1d36c4ac3dfb8328661c8c104de352d1df3768a68c6bba70
-    name: inu-stt-adapter
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/inu-stt-adapter-0.1.0-1.tgz
-    version: 0.1.0-1
   jenkins:
   - apiVersion: v1
     appVersion: "2.98"
