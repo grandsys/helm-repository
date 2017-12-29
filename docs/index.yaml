@@ -89,9 +89,19 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/inu-nodejs-0.1.0-1.tgz
     version: 0.1.0-1
+  inu-qms-player:
+  - apiVersion: v1
+    created: 2017-12-29T09:44:31.787398569Z
+    description: inu-qms-player for Kubernetes
+    digest: 3b6ff0cafe318b83e0475cecbdd8713b8d0f36f4fedfce8d39c7497ca020e753
+    name: inu-qms-player
+    tillerVersion: '>=2.6.1'
+    urls:
+    - https://grandsys.github.io/helm-repository/inu-qms-player-0.1.0-1.tgz
+    version: 0.1.0-1
   inu-qms-schedule:
   - apiVersion: v1
-    created: 2017-12-29T09:11:56.368480516Z
+    created: 2017-12-29T09:44:31.790705092Z
     description: inu-qms-schedule for Kubernetes
     digest: a371367e634b407eefe3d0f29db90c98bad00b4b932416f7d10ada7f7aad6e4d
     name: inu-qms-schedule
@@ -111,7 +121,7 @@ entries:
     version: 0.1.0-1
   inu-stt-adapter:
   - apiVersion: v1
-    created: 2017-12-29T09:11:56.371184561Z
+    created: 2017-12-29T09:44:31.792428087Z
     description: stt result adapter
     digest: 7e004bfae40b8f4f2ccf287c5c14b248c4a66f0eb9d14b56d1adc3f7fa78ebca
     name: inu-stt-adapter
@@ -225,4 +235,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/mongodb-3.4.10-1.tgz
     version: 3.4.10-1
-generated: 2017-12-29T09:11:56.367619317Z
+generated: 2017-12-29T09:44:31.78654916Z
