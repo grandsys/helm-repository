@@ -89,6 +89,16 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/inu-nodejs-0.1.0-1.tgz
     version: 0.1.0-1
+  inu-qms-schedule:
+  - apiVersion: v1
+    created: 2017-12-29T05:19:25.070749959Z
+    description: inu-qms-schedule for Kubernetes
+    digest: 3ad1d54d07244b37a1fddf95e41efcad532182da50dbd4372d9b7fd9e6409766
+    name: inu-qms-schedule
+    tillerVersion: '>=2.6.1'
+    urls:
+    - https://grandsys.github.io/helm-repository/inu-qms-schedule-0.1.0-1.tgz
+    version: 0.1.0-1
   inu-storedq-api:
   - apiVersion: v1
     created: 2017-12-20T12:49:08.925287464Z
@@ -215,4 +225,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/mongodb-3.4.10-1.tgz
     version: 3.4.10-1
-generated: 2017-12-28T04:05:49.092702951Z
+generated: 2017-12-29T05:19:25.069877278Z
