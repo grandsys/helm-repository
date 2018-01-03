@@ -90,15 +90,6 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-nodejs-0.1.0-1.tgz
     version: 0.1.0-1
   inu-qms-player:
-  - apiVersion: v1
-    created: 2018-01-03T07:29:05.435344663Z
-    description: inu-qms-player for Kubernetes
-    digest: 3b6ff0cafe318b83e0475cecbdd8713b8d0f36f4fedfce8d39c7497ca020e753
-    name: inu-qms-player
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/inu-qms-player-0.1.0-1.tgz
-    version: 0.1.0-1
   inu-qms-schedule:
   - apiVersion: v1
     created: 2018-01-03T07:29:05.438486543Z
