@@ -91,7 +91,7 @@ entries:
     version: 0.1.0-1
   inu-qms-player:
   - apiVersion: v1
-    created: 2018-01-03T09:04:25.883893166Z
+    created: 2018-01-03T09:44:32.507712664Z
     description: inu-qms-player for Kubernetes
     digest: 8eab6575104b4284b36ccd0cc532d12fa7245dd0ed6004f599c355cc80222b1a
     name: inu-qms-player
@@ -101,7 +101,16 @@ entries:
     version: 0.1.0-1
   inu-qms-schedule:
   - apiVersion: v1
-    created: 2018-01-03T09:04:25.887384013Z
+    created: 2018-01-03T09:44:32.513817304Z
+    description: inu-qms-schedule for Kubernetes
+    digest: b0d770887f9bcd412deacc0e33b4ab8d1ff59b34b38764582636f4ef5494f8c4
+    name: inu-qms-schedule
+    tillerVersion: '>=2.6.1'
+    urls:
+    - https://grandsys.github.io/helm-repository/inu-qms-schedule-0.1.0-2.tgz
+    version: 0.1.0-2
+  - apiVersion: v1
+    created: 2018-01-03T09:44:32.513136581Z
     description: inu-qms-schedule for Kubernetes
     digest: 800ae94b971afd86b1f74104bfb517fa33ecc27ef0c2659bf04cf4bd428bf488
     name: inu-qms-schedule
@@ -121,7 +130,7 @@ entries:
     version: 0.1.0-1
   inu-stt-adapter:
   - apiVersion: v1
-    created: 2018-01-03T09:04:26.012676684Z
+    created: 2018-01-03T09:44:32.617348231Z
     description: stt result adapter
     digest: 7e004bfae40b8f4f2ccf287c5c14b248c4a66f0eb9d14b56d1adc3f7fa78ebca
     name: inu-stt-adapter
@@ -132,7 +141,7 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: "2.99"
-    created: 2018-01-03T09:04:26.042511727Z
+    created: 2018-01-03T09:44:32.731407145Z
     description: Jekins TLS running on Kubernetes
     digest: cb0248239f821470c69e3e1cfa1b362d5f2519ec0834cca8bf437769901570fc
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2
@@ -249,4 +258,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/mongodb-3.4.10-1.tgz
     version: 3.4.10-1
-generated: 2018-01-03T09:04:25.882305139Z
+generated: 2018-01-03T09:44:32.39678798Z
