@@ -396,56 +396,6 @@ entries:
     version: 2.4.6-alpine-1
   inu-nodejs:
   - apiVersion: v1
-    created: 2018-02-01T09:09:55.543880371Z
-    description: Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
-    digest: f189a68c4198f7ba8d060fb9afb6c1b785696fe9b30d587abd87565d01ec4f1f
-    icon: https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg
-    name: inu-nodejs
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/inu-nodejs-0.1.0-6.tgz
-    version: 0.1.0-6
-  - apiVersion: v1
-    created: 2018-02-01T09:09:55.542726005Z
-    description: Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
-    digest: d2d2691f7de026686576b338c3cb90f412535bffec2784fc9fbfc68baa3499ef
-    icon: https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg
-    name: inu-nodejs
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/inu-nodejs-0.1.0-5.tgz
-    version: 0.1.0-5
-  - apiVersion: v1
-    created: 2018-02-01T09:09:55.540493494Z
-    description: Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
-    digest: 4581b8e93296e53cf2759c31193cb675edd53b0338d315fd6f73827fb8fde2dc
-    icon: https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg
-    name: inu-nodejs
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/inu-nodejs-0.1.0-4.tgz
-    version: 0.1.0-4
-  - apiVersion: v1
-    created: 2018-02-01T09:09:55.538086157Z
-    description: A Helm chart for Kubernetes
-    digest: 3bbb805b75e63c3cebaf8f8f3b51743eccdca818d9544074ae2028582fc506ad
-    icon: https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg
-    name: inu-nodejs
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/inu-nodejs-0.1.0-3.tgz
-    version: 0.1.0-3
-  - apiVersion: v1
-    created: 2018-02-01T09:09:55.535426814Z
-    description: A Helm chart for Kubernetes
-    digest: e3acea579a4c2dac0fb45b780acacb364224601dd7f45191a0c904ccfb728648
-    icon: https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg
-    name: inu-nodejs
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/inu-nodejs-0.1.0-2.tgz
-    version: 0.1.0-2
-  - apiVersion: v1
     created: 2017-12-20T12:49:08.923861435Z
     description: A Helm chart for Kubernetes
     digest: a30ddc722f3139f35c1488dbed4c7bcb8b6721f1ac293ba7291484aaa25b5d4c
