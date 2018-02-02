@@ -396,16 +396,6 @@ entries:
     version: 2.4.6-alpine-1
   inu-nodejs:
   - apiVersion: v1
-    created: 2018-02-02T08:46:21.545281147Z
-    description: Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
-    digest: b86ae55d7666b965017ff84ac7f65a5abc57f32689a7e21cb387b25d384ffaf8
-    icon: https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg
-    name: inu-nodejs
-    tillerVersion: '>=2.6.1'
-    urls:
-    - https://grandsys.github.io/helm-repository/inu-nodejs-0.1.0-2.tgz
-    version: 0.1.0-2
-  - apiVersion: v1
     created: 2018-02-02T08:46:21.544463211Z
     description: A Helm chart for Kubernetes
     digest: a30ddc722f3139f35c1488dbed4c7bcb8b6721f1ac293ba7291484aaa25b5d4c
