@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   cassandra:
   - apiVersion: v1
-    created: 2018-02-24T20:18:06.854331094Z
+    created: 2018-02-24T20:36:21.274839643Z
     description: Apache Cassandra is the database of choice for applications requiring
       the highest levels of scalability and reliability.
     digest: 1a3d1ee1b6ba3af192878ac5947deca4af6b0abb503eee051ec855e52e9cc5ca
@@ -14,7 +14,7 @@ entries:
     version: 3.11.1
   ceph-rbd-provisioner:
   - apiVersion: v1
-    created: 2018-02-24T20:18:06.855131883Z
+    created: 2018-02-24T20:36:21.275680148Z
     description: Ceph rbd provisioner for Kubernetes
     digest: b11a605ec3bd7e37936b1a8cc944b7a5bb43ac6e369a0829c47f6c00e979c197
     icon: http://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
@@ -24,7 +24,7 @@ entries:
     version: v0.1.1
   cephfs-provisioner:
   - apiVersion: v1
-    created: 2018-02-24T20:18:06.855903247Z
+    created: 2018-02-24T20:36:21.276458902Z
     description: cephfs provisioner for Kubernetes
     digest: 37f76ef25b723653188c4851facaaf82c2a7395e45cac1e4dba2654373bdd735
     icon: http://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
@@ -32,10 +32,22 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/cephfs-provisioner-v0.1.2.tgz
     version: v0.1.2
+  dnsmasq:
+  - apiVersion: v1
+    created: 2018-02-24T20:36:21.278199643Z
+    description: 'Dnsmasq provides network infrastructure for small networks: DNS,
+      DHCP, router advertisement and network boot.'
+    digest: c9f99dbd1e35548f11bf18e093fb0fc950aac70f205900d687ea22880bf41433
+    icon: http://www.thekelleys.org.uk/dnsmasq/images/icon.png
+    name: dnsmasq
+    tillerVersion: '>=2.6.1'
+    urls:
+    - https://grandsys.github.io/helm-repository/dnsmasq-2.78.tgz
+    version: "2.78"
   elasticsearch:
   - apiVersion: v1
     appVersion: 2.4.6-alpine
-    created: 2018-02-24T20:18:06.856861114Z
+    created: 2018-02-24T20:36:21.279131423Z
     description: Elasticsearch is a distributed RESTful search engine built for the
       cloud.
     digest: b1cdaed9e182d414fa035586b3cdf0c3a2a890f09dda0d115ef3addb8d2f668f
@@ -47,7 +59,7 @@ entries:
     version: 2.4.6-alpine
   inu-alpha:
   - apiVersion: v1
-    created: 2018-02-24T20:18:06.85754476Z
+    created: 2018-02-24T20:36:21.279911444Z
     description: inu-alpha
     digest: 94352e38b4335c41bcc57db082094d62ea1ab27aeb3a8d043518ae1012b2f66f
     name: inu-alpha
@@ -57,7 +69,7 @@ entries:
     version: 0.1.0-1
   inu-deployd:
   - apiVersion: v1
-    created: 2018-02-24T20:18:06.858916526Z
+    created: 2018-02-24T20:36:21.281705867Z
     description: Deployd is the simplest way to build realtime APIs for web and mobile
       apps.
     digest: cd385371ddc7164b6a84719288967d93868fca92a9ace18e605fa28ba14325d8
@@ -68,7 +80,7 @@ entries:
     - https://grandsys.github.io/helm-repository/inu-deployd-0.1.0.tgz
     version: 0.1.0
   - apiVersion: v1
-    created: 2018-02-24T20:18:06.858206233Z
+    created: 2018-02-24T20:36:21.280840338Z
     description: Deployd is the simplest way to build realtime APIs for web and mobile
       apps.
     digest: bf26b8b1f1afc6ba7adc13b7958dcfd8bf71f5fa316661a80f0ba3ba82564f1f
@@ -81,7 +93,7 @@ entries:
   inu-es-env:
   - apiVersion: v1
     appVersion: 2.4.6-alpine
-    created: 2018-02-24T20:18:06.860312652Z
+    created: 2018-02-24T20:36:21.28342735Z
     description: config Elasticsearch for iNu
     digest: cb0d53b97e550ea54a78b5844586e0fd0ebc36888d476b11dfe8963b86a5ff52
     icon: https://www.elastic.co/assets/bltc77b25fbbc9b59e9/ansible.png
@@ -92,7 +104,7 @@ entries:
     version: 2.4.6-alpine
   inu-jenkins:
   - apiVersion: v1
-    created: 2018-02-24T20:18:06.861554804Z
+    created: 2018-02-24T20:36:21.284804837Z
     description: Jekins TLS running on Kubernetes
     digest: 6d2ca589887d9ec5498a89022130d1061a77fe7698b8d3980e6b8b35873b7a3b
     icon: https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg
@@ -103,7 +115,7 @@ entries:
     version: 2.108-alpine
   inu-nodejs:
   - apiVersion: v1
-    created: 2018-02-24T20:18:06.862258035Z
+    created: 2018-02-24T20:36:21.285604961Z
     description: Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
     digest: 428efd009887e3fb2c92c0330c0720622450d09492c52457025a734bfca8df5a
     icon: https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg
@@ -114,7 +126,7 @@ entries:
     version: 0.1.0
   inu-qms-player:
   - apiVersion: v1
-    created: 2018-02-24T20:18:06.862963478Z
+    created: 2018-02-24T20:36:21.286597307Z
     description: inu-qms-player for Kubernetes
     digest: 8ad55e0b4c53362efe400620180239028110432f8a7c1578625be2e4387a372d
     name: inu-qms-player
@@ -124,7 +136,7 @@ entries:
     version: 0.1.0
   inu-qms-schedule:
   - apiVersion: v1
-    created: 2018-02-24T20:18:06.863630672Z
+    created: 2018-02-24T20:36:21.287443444Z
     description: inu-qms-schedule for Kubernetes
     digest: b4d3bc0d4e1392385ffdbc8d3fb46475986665e30ba14ea64e54175235d52966
     name: inu-qms-schedule
@@ -134,7 +146,7 @@ entries:
     version: 0.1.0
   inu-storedq-api:
   - apiVersion: v1
-    created: 2018-02-24T20:18:06.86440333Z
+    created: 2018-02-24T20:36:21.28812462Z
     description: A Helm chart for Kubernetes
     digest: d9f7d4ae9d9a0e1af12996884a388aea31724d87c83adab064abb33ae84b669a
     icon: https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg
@@ -144,7 +156,7 @@ entries:
     version: 0.1.0
   inu-stt-adapter:
   - apiVersion: v1
-    created: 2018-02-24T20:18:06.865109893Z
+    created: 2018-02-24T20:36:21.288839931Z
     description: stt result adapter
     digest: 5e5ae635f26e35deeb6f71241843ffd99a3c8a72d7a5817994db2046d4276681
     name: inu-stt-adapter
@@ -154,7 +166,7 @@ entries:
     version: 0.1.1
   k8s-hostpath-provisioner:
   - apiVersion: v1
-    created: 2018-02-24T20:18:06.865873718Z
+    created: 2018-02-24T20:36:21.293954352Z
     description: Kubernetes hostPath PV provisioner configurable using node annotations
     digest: b115b53262d460db180b73e2fca26d969e5a8660f00f3dd77910095195d1e538
     name: k8s-hostpath-provisioner
@@ -164,7 +176,7 @@ entries:
   kong:
   - apiVersion: v1
     appVersion: 0.10.4
-    created: 2018-02-24T20:18:06.866834633Z
+    created: 2018-02-24T20:36:21.295543573Z
     description: kong api gateway
     digest: 0dde8865cbef1d5f6199a98713b128454cd5fb63f6e1a8abd0f6678f2b6875ba
     icon: https://d1q6f0aelx0por.cloudfront.net/product-logos/kong2.png
@@ -175,7 +187,7 @@ entries:
     version: 0.10.4
   misc-dnsmasq:
   - apiVersion: v1
-    created: 2018-02-24T20:18:06.87675798Z
+    created: 2018-02-24T20:36:21.299814128Z
     description: 'Dnsmasq provides network infrastructure for small networks: DNS,
       DHCP, router advertisement and network boot.'
     digest: f2084ff43c93b55b42d10599657c70df6516d57ace63fbb49e344c990959fef8
@@ -186,7 +198,7 @@ entries:
     - https://grandsys.github.io/helm-repository/misc-dnsmasq-2.78-3.tgz
     version: 2.78-3
   - apiVersion: v1
-    created: 2018-02-24T20:18:06.873541333Z
+    created: 2018-02-24T20:36:21.297942117Z
     description: 'Dnsmasq provides network infrastructure for small networks: DNS,
       DHCP, router advertisement and network boot.'
     digest: 9200e184b5dc19de6074d1a4fcb16537b7a506cdc532a8d9734cef36b995703e
@@ -197,7 +209,7 @@ entries:
     - https://grandsys.github.io/helm-repository/misc-dnsmasq-2.78-2.tgz
     version: 2.78-2
   - apiVersion: v1
-    created: 2018-02-24T20:18:06.867710839Z
+    created: 2018-02-24T20:36:21.296760741Z
     description: 'Dnsmasq provides network infrastructure for small networks: DNS,
       DHCP, router advertisement and network boot.'
     digest: 79568c6c945bd89bbbcb1be688c8d3a757233feccbc6474746fa58b3fbe22037
@@ -209,7 +221,7 @@ entries:
     version: 2.78-1
   mongodb:
   - apiVersion: v1
-    created: 2018-02-24T20:18:06.877501302Z
+    created: 2018-02-24T20:36:21.300631028Z
     description: Document database with the scalability and flexibility
     digest: d1b81171f89a41085052789783fdc43d5a83c829dda9fb793c892249ecf71347
     icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
@@ -218,4 +230,4 @@ entries:
     urls:
     - https://grandsys.github.io/helm-repository/mongodb-3.4.10.tgz
     version: 3.4.10
-generated: 2018-02-24T20:18:06.853289881Z
+generated: 2018-02-24T20:36:21.273661216Z
